@@ -15,6 +15,6 @@ addDecorator(withStyles)
 addDecorator(withTheme)
 
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
-  layout: 'fullscreen'
+  actions: { argTypesRegex: '^on[A-Z].*' },
+  layout: 'fullscreen',
 }

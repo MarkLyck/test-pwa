@@ -1,10 +1,4 @@
 {
-    "cSpell.ignoreWords": [
-        "browserslist",
-        "viewports"
-    ],
-    "cSpell.words": [
-        "jotai",
-        "provider"
-    ]
+  "cSpell.ignoreWords": ["browserslist", "viewports"],
+  "cSpell.words": ["jotai", "provider"]
 }

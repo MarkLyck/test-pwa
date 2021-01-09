@@ -1,12 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from 'react'
+import logo from './logo.svg'
 import styled from '@emotion/styled'
-import './App.css';
+import './App.css'
 import { useAtom } from 'jotai'
 import { themeAtom } from 'src/atoms'
 
 const Test = styled.div`
-  background: ${p => p.theme.palette.text[100]};
+  background: ${(p) => p.theme.palette.text[100]};
 `
 
 function App() {
@@ -19,7 +19,11 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <button onClick={() => setTheme(theme.type === 'light' ? 'dark' : 'light')}>test theme</button>
+        <button
+          onClick={() => setTheme(theme.type === 'light' ? 'dark' : 'light')}
+        >
+          test theme
+        </button>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -30,7 +34,7 @@ function App() {
         </a>
       </header>
     </Test>
-  );
+  )
 }
 
-export default App;
+export default App

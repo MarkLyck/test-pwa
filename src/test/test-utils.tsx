@@ -8,18 +8,17 @@ import Compose from 'src/lib/Compose'
 import themes from 'src/lib/themes'
 
 const AllTheProviders = ({ children }: any) => {
-    return (
-        <Compose components={[
-            JotaiProvider,
-            [ThemeProvider, { theme: themes.light }]
-        ]}>
-            {children}
-        </Compose>
-    )
+  return (
+    <Compose
+      components={[JotaiProvider, [ThemeProvider, { theme: themes.light }]]}
+    >
+      {children}
+    </Compose>
+  )
 }
 
 const customRender = (ui: any, options?: any) =>
-    render(ui, { wrapper: AllTheProviders, ...options })
+  render(ui, { wrapper: AllTheProviders, ...options })
 
 // re-export everything
 export * from '@testing-library/react'

@@ -4,18 +4,16 @@ import { Provider, useAtom } from 'jotai'
 import { themeAtom } from '../../src/atoms'
 
 const ThemeContainer = ({ children }) => {
-    const [theme] = useAtom(themeAtom)
-    return <ThemeProvider theme={theme}>{children}</ThemeProvider>
+  const [theme] = useAtom(themeAtom)
+  return <ThemeProvider theme={theme}>{children}</ThemeProvider>
 }
 
 const withJotaiTheme = (storyFn: any) => {
-    return (
-        <Provider>
-            <ThemeContainer>
-                {storyFn()}
-            </ThemeContainer>
-        </Provider>
-    )
+  return (
+    <Provider>
+      <ThemeContainer>{storyFn()}</ThemeContainer>
+    </Provider>
+  )
 }
 
 export default withJotaiTheme

@@ -5,25 +5,19 @@ import Compose from './Compose'
 import { themeAtom } from 'src/atoms'
 
 type AppProviderProps = {
-    children: React.ReactNode
+  children: React.ReactNode
 }
 
 const AppProvider = ({ children }: AppProviderProps) => {
-    const [theme] = useAtom(themeAtom)
+  const [theme] = useAtom(themeAtom)
 
-    return (
-        <Compose components={[
-            [ThemeProvider, { theme }]
-        ]}>
-            {children}
-        </Compose>
-    )
+  return <Compose components={[[ThemeProvider, { theme }]]}>{children}</Compose>
 }
 
 const Wrapper = (props: any) => (
-    <JotaiProvider>
-        <AppProvider {...props} />
-    </JotaiProvider>
+  <JotaiProvider>
+    <AppProvider {...props} />
+  </JotaiProvider>
 )
 
 export default Wrapper

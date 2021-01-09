@@ -4,8 +4,8 @@ import { default as dark } from './dark'
 export type themeNameType = 'light' | 'dark'
 
 const themes = {
-    light,
-    dark
+  light,
+  dark,
 }
 
-export default themes 
+export default themes

@@ -1,34 +1,34 @@
-import React from 'react';
+import React from 'react'
 import styled from '@emotion/styled'
 
 export interface ButtonProps {
   /**
    * Is this the principal call to action on the page?
    */
-  primary?: boolean;
+  primary?: boolean
   /**
    * What background color to use
    */
-  backgroundColor?: string;
+  backgroundColor?: string
   /**
    * How large should the button be?
    */
-  size?: 'small' | 'medium' | 'large';
+  size?: 'small' | 'medium' | 'large'
   /**
    * Button contents
    */
-  label: string;
+  label: string
   /**
    * Optional click handler
    */
-  onClick?: () => void;
+  onClick?: () => void
 }
 
 type StyledButtonProps = {
-  primary: boolean;
-  size: string;
-  theme?: any;
-  [key: string]: any;
+  primary: boolean
+  size: string
+  theme?: any
+  [key: string]: any
 }
 
 const StyledButton = styled.button`
@@ -39,8 +39,10 @@ const StyledButton = styled.button`
   cursor: pointer;
   display: inline-block;
   line-height: 1;
-  color: ${(p: StyledButtonProps) => p.primary ? p.theme.palette.text[0] : p.theme.palette.text[500]};
-  background-color: ${(p: StyledButtonProps) => p.primary ? p.theme.palette.primary[500] : 'transparent'};
+  color: ${(p: StyledButtonProps) =>
+    p.primary ? p.theme.palette.text[0] : p.theme.palette.text[500]};
+  background-color: ${(p: StyledButtonProps) =>
+    p.primary ? p.theme.palette.primary[500] : 'transparent'};
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
   font-size: ${(p: StyledButtonProps) => {
     if (p.size === 'small') {
@@ -73,13 +75,8 @@ export const Button = ({
   ...props
 }: ButtonProps) => {
   return (
-    <StyledButton
-      type="button"
-      primary={primary}
-      size={size}
-      {...props}
-    >
+    <StyledButton type="button" primary={primary} size={size} {...props}>
       {label}
     </StyledButton>
-  );
-};
+  )
+}

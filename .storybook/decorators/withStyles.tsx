@@ -5,10 +5,10 @@ import GlobalStyles from '../../src/lib/GlobalStyles'
 import 'antd/dist/antd.less'
 
 const withStyles = (storyFn: any) => (
-    <>
-        <GlobalStyles />
-        {storyFn()}
-    </>
+  <>
+    <GlobalStyles />
+    {storyFn()}
+  </>
 )
 
 export default withStyles
