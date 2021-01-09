@@ -7,7 +7,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "gc": "gitmoji -c"
+    "gc": "gitmoji -c",
+    "gca": "git add . && gitmoji -c"
   },
   "dependencies": {
     "@emotion/react": "^11.1.4",

@@ -1,6 +1,12 @@
 /// <reference lib="webworker" />
 /* eslint-disable no-restricted-globals */
 
+// IMPORTANT!
+// ---------
+// This file must stay in the ./src folder.
+// If it is moved, service-worker will break.
+// ---------
+
 // This service worker can be customized!
 // See https://developers.google.com/web/tools/workbox/modules
 // for the list of available Workbox modules, or add any other
