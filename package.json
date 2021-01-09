@@ -10,8 +10,9 @@
     "gc": "gitmoji -c",
     "gca": "git add . && gitmoji -c",
     "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public",
     "cypress:open": "cypress open",
-    "build-storybook": "build-storybook -s public"
+    "env": "node ./scripts/set_env"
   },
   "dependencies": {
     "@emotion/react": "^11.1.4",
