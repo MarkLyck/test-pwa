@@ -1,6 +1,7 @@
 version: 2.1
 orbs:
   node: circleci/node@4.1.0
+   codecov: codecov/codecov@1.2.1
 workflows:
   node-tests:
     jobs:
@@ -14,3 +15,5 @@ jobs:
       - checkout
       - run: yarn install
       - run: yarn test:coverage
+      - codecov/upload:
+          file: "./coverage"
