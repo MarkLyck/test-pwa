@@ -4,7 +4,7 @@ import { ThemeProvider } from '@emotion/react'
 import { ThemeSwitcherProvider } from "react-css-theme-switcher";
 import Compose from './Compose'
 import { themeAtom } from 'src/atoms'
-import "antd/dist/antd.css"
+// import "antd/dist/antd.css"
 
 const themeMap = {
   dark: `${process.env.PUBLIC_URL}/antd/dark-theme.css`,
@@ -19,7 +19,7 @@ const AppProvider = ({ children }: AppProviderProps) => {
   const [theme] = useAtom(themeAtom)
 
   return <Compose components={[
-    [ThemeSwitcherProvider, { themeMap, defaultTheme: 'light' }],
+    [ThemeSwitcherProvider, { themeMap, defaultTheme: theme.type, insertionPoint: "react-css-theme-switcher-injection-point" }],
     [ThemeProvider, { theme }]
   ]}>{children}</Compose>
 }

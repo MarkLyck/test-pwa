@@ -6,7 +6,7 @@ import './App.css'
 import { useAtom } from 'jotai'
 import { themeAtom } from 'src/atoms'
 import { Button } from 'antd'
-
+import GlobalStyles from 'src/lib/GlobalStyles'
 
 const Test = styled.div`
   background: ${(p) => p.theme.palette.text[100]};
@@ -18,6 +18,7 @@ function App() {
 
   return (
     <Test className="App">
+      <GlobalStyles />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
