@@ -13,4 +13,4 @@ jobs:
     steps:
       - checkout
       - run: yarn install
-      - run: CI=true yarn test:coverage
+      - run: yarn test:coverage
