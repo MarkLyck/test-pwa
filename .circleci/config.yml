@@ -1,0 +1,16 @@
+version: 2.1
+orbs:
+  node: circleci/node@4.1.0
+workflows:
+  node-tests:
+    jobs:
+      - unit-test
+
+jobs:
+  unit-test:
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+      - run: yarn install
+      - run: CI=true yarn test:coverage
