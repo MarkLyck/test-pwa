@@ -6,7 +6,7 @@
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:coverage": "react-scripts test --watchAll --coverage",
+    "test:coverage": "react-scripts test --ci --coverage",
     "serve": "serve -s build",
     "gc": "gitmoji -c",
     "gca": "git add . && yarn gc",
