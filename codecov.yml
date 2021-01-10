@@ -16,15 +16,6 @@ coverage:
     patch: yes # default yes
     changes: no
 
-parsers:
-  # No clue what this is alluding to
-  gcov:
-    branch_detection:
-      conditional: yes
-      loop: yes
-      method: no
-      macro: no
-
 # Pull request comments
 # https://docs.codecov.io/docs/pull-request-comments
 comment:
