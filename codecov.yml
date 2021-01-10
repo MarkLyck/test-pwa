@@ -27,3 +27,4 @@ comment:
 
 ignore:
   - "src/service-worker.ts"  # create-react-app service-worker
+  - "src/**/*.stories.*"  # create-react-app service-worker
