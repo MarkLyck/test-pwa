@@ -10,7 +10,7 @@ coverage:
   round: down
   range: "70...100"
   # Adds status messages to github
-  # Diabling until we agree on the approach
+  # Disabling until we agree on the approach
   status:
     project: yes # default yes
     patch: yes # default yes
@@ -31,6 +31,8 @@ comment:
   layout: "reach,diff,flags,files,footer"
   behavior: default
   require_changes: no
+  require_head: no # default yes
+  require_base: no # default yes
 
 ignore:
   - "src/service-worker.ts"  # create-react-app service-worker
