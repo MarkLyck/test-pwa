@@ -6,7 +6,7 @@ import Compose from './Compose'
 import { themeAtom } from 'src/atoms'
 import "antd/dist/antd.css"
 
-const themeMap = {
+export const themeMap = {
   light: `${process.env.PUBLIC_URL}/antd/light-theme.css`,
   dark: `${process.env.PUBLIC_URL}/antd/dark-theme.css`,
 };
