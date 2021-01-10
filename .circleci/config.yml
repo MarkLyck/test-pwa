@@ -1,6 +1,7 @@
 version: 2.1
 orbs:
   node: circleci/node@4.1.0
+  codecov: codecov/codecov@1.0.5
 workflows:
   node-tests:
     jobs:
@@ -12,5 +13,22 @@ jobs:
       - image: circleci/node:latest
     steps:
       - checkout
-      - run: yarn install
-      - run: CI=true yarn test:coverage
+      - restore_cache:
+          name: Restore Yarn Package Cache
+          keys:
+            - yarn-packages-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install Dependencies
+          command: yarn install --frozen-lockfile --cache-folder ~/.cache/yarn
+      - save_cache:
+          name: Save Yarn Package Cache
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+      - run:
+          name: "Run Jest and Collect Coverage Reports"
+          command: yarn test:ci
+      - store_artifacts:
+          path: coverage
+      - codecov/upload:
+          file: coverage/coverage-final.json
