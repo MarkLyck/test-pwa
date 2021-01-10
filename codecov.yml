@@ -1,15 +1,36 @@
+# Configures notifications, can add Slack
+# Seems that doesn't send any notifications currently
+# https://docs.codecov.io/docs/notifications
 codecov:
   require_ci_to_pass: yes
 
+# https://docs.codecov.io/docs/coverage-configuration
 coverage:
   precision: 2
   round: down
   range: "70...100"
+  # Adds status messages to github
+  # Diabling until we agree on the approach
+  status:
+    project: yes # default yes
+    patch: yes # default yes
+    changes: no
 
+parsers:
+  # No clue what this is alluding to
+  gcov:
+    branch_detection:
+      conditional: yes
+      loop: yes
+      method: no
+      macro: no
+
+# Pull request comments
+# https://docs.codecov.io/docs/pull-request-comments
 comment:
   layout: "reach,diff,flags,files,footer"
   behavior: default
-  require_changes: nos
+  require_changes: no
 
 ignore:
   - "src/service-worker.ts"  # create-react-app service-worker
