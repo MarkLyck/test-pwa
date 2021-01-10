@@ -12,8 +12,19 @@ jobs:
     docker:
       - image: circleci/node:latest
     steps:
-      - checkout
-      - run: yarn install
+      - checkouts
+      - restore_cache:
+          name: Restore Yarn Package Cache
+          keys:
+            - yarn-packages-{{ checksum "yarn.lock" }}
+      - run:
+          name: Install Dependencies
+          command: yarn install --frozen-lockfile --cache-folder ~/.cache/yarn
+      - save_cache:
+          name: Save Yarn Package Cache
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
       - run:
           name: "Run Jest and Collect Coverage Reports"
           command: yarn test:coverage
