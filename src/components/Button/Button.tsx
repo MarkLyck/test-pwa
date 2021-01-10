@@ -80,3 +80,5 @@ export const Button = ({
     </StyledButton>
   )
 }
+
+export default Button
