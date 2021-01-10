@@ -1,9 +1,12 @@
 import React from 'react'
 import logo from './logo.svg'
 import styled from '@emotion/styled'
+import { useThemeSwitcher } from "react-css-theme-switcher";
 import './App.css'
 import { useAtom } from 'jotai'
 import { themeAtom } from 'src/atoms'
+import { Button } from 'antd'
+
 
 const Test = styled.div`
   background: ${(p) => p.theme.palette.text[100]};
@@ -11,6 +14,7 @@ const Test = styled.div`
 
 function App() {
   const [theme, setTheme] = useAtom(themeAtom)
+  const { switcher, themes } = useThemeSwitcher();
 
   return (
     <Test className="App">
@@ -19,11 +23,14 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <button
-          onClick={() => setTheme(theme.type === 'light' ? 'dark' : 'light')}
+        <Button
+          onClick={() => {
+            switcher({ theme: theme.type === 'light' ? themes.dark : themes.light });
+            setTheme(theme.type === 'light' ? 'dark' : 'light')
+          }}
         >
           test theme
-        </button>
+        </Button>
         <a
           className="App-link"
           href="https://reactjs.org"
