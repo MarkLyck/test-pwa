@@ -5,6 +5,7 @@ import { ThemeSwitcherProvider } from "react-css-theme-switcher";
 import Compose from './Compose'
 import { themeAtom } from 'src/atoms'
 import "antd/dist/antd.css"
+import 'src/lib/iconLibrary'
 
 export const themeMap = {
   light: `${process.env.PUBLIC_URL}/antd/light-theme.css`,
