@@ -8,8 +8,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+      - name: yarn install
+        run: yarn install
       - name: build stats
-        run: npm run build --stats
+        run: yarn build --stats
       - name: Run bundle-stats
         uses: vio/bundle-stats-action@v1.1.0
         with:
