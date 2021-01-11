@@ -2,6 +2,7 @@
   "cSpell.ignoreWords": ["browserslist", "viewports"],
   "cSpell.words": [
     "bundlesize",
+    "bundlewatch",
     "gcap",
     "jotai",
     "provider",

@@ -32,3 +32,5 @@ jobs:
           path: coverage
       - codecov/upload:
           file: coverage/coverage-final.json
+      - store_test_results:
+          path: test-results
