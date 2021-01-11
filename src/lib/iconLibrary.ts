@@ -7,13 +7,11 @@ import {
 
 // Solid
 import {
-  faSearch,
   faMoon,
 } from '@fortawesome/pro-solid-svg-icons'
 
 // duoTone
 import {
-  faAbacus as faAbacusDuo,
   faSun as faSunDuo,
 } from '@fortawesome/pro-duotone-svg-icons'
 
@@ -22,8 +20,6 @@ library.add(
   faAnalytics,
   // SOLID
   faMoon,
-  faSearch,
   // DuoTone
-  faAbacusDuo,
   faSunDuo,
 )
