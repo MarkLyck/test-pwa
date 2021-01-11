@@ -1,8 +1,10 @@
 {
   "cSpell.ignoreWords": ["browserslist", "viewports"],
   "cSpell.words": [
+    "bundlesize",
     "gcap",
     "jotai",
-    "provider"
+    "provider",
+    "test"
   ]
 }
