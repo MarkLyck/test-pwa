@@ -10,7 +10,11 @@ https://github.com/apps/changeset-bot
 # setup bundle-stats
 https://github.com/marketplace/actions/bundlestats
 
-# setup Cypress
+# setup codefactor
+https://github.com/marketplace/codefactor
 
-# set Vercel
+# setup Cypress
+https://docs.cypress.io/guides/dashboard/github-integration.html#Install-the-Cypress-GitHub-app
+
+# setup Vercel
 
