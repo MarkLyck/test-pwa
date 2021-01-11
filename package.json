@@ -7,6 +7,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:ci": "react-scripts test --ci --coverage",
+    "test:integration": "cypress run --record --key 7d911bba-f412-483d-9753-c22c56bd4d39",
     "serve": "serve -s build",
     "gc": "gitmoji -c",
     "gca": "git add . && yarn gc",
