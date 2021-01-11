@@ -1,1 +1,2 @@
 [![codecov](https://codecov.io/gh/MarkLyck/test-pwa/branch/main/graph/badge.svg?token=G5RYDGL8TI)](https://codecov.io/gh/MarkLyck/test-pwa)
+[![CodeFactor](https://www.codefactor.io/repository/github/marklyck/test-pwa/badge)](https://www.codefactor.io/repository/github/marklyck/test-pwa)
