@@ -7,6 +7,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:ci": "react-scripts test --ci --coverage",
+    "test:bundlesize": "bundlewatch",
     "serve": "serve -s build",
     "gc": "gitmoji -c",
     "gca": "git add . && yarn gc",
@@ -64,6 +65,8 @@
     "@types/react-dom": "^17.0.0",
     "autoprefixer": "9.0.0",
     "babel-loader": "8.1.0",
+    "bundlesize": "^0.18.1",
+    "bundlewatch": "^0.3.1",
     "cypress": "^6.2.1",
     "gulp": "^4.0.2",
     "gulp-csso": "^4.0.1",
@@ -102,6 +105,14 @@
     "coverageReporters": [
       "text",
       "json"
+    ]
+  },
+  "bundlewatch": {
+    "files": [
+      {
+        "path": "./build/static/js/*.js",
+        "maxSize": "250kB"
+      }
     ]
   },
   "browserslist": {
