@@ -1,0 +1,9 @@
+{
+    "extends": [
+        "react-app",
+        "shared-config"
+    ],
+    "globals": {
+        "cy": "readonly"
+    }
+}
