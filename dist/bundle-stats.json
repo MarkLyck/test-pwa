@@ -1,0 +1,2878 @@
+{
+  "createdAt": "2021-01-11T12:36:10.229Z",
+  "version": "2.5.0",
+  "runs": [
+    {
+      "webpack": {
+        "builtAt": "2021-01-11T12:32:05.611Z",
+        "hash": "3e3f5cc983a5fc624c8a"
+      },
+      "internalBuildNumber": 1
+    }
+  ],
+  "summary": {
+    "webpack": [
+      {
+        "label": "Bundle Size",
+        "value": 1046822,
+        "displayValue": "1022.29KB",
+        "delta": 1046822,
+        "deltaPercentage": 100,
+        "displayDelta": "+1022.29KB",
+        "displayDeltaPercentage": "+100%",
+        "deltaType": "HIGH_NEGATIVE"
+      },
+      {
+        "label": "Initial JS",
+        "value": 409086,
+        "displayValue": "399.5KB",
+        "delta": 409086,
+        "deltaPercentage": 100,
+        "displayDelta": "+399.5KB",
+        "displayDeltaPercentage": "+100%",
+        "deltaType": "HIGH_NEGATIVE"
+      },
+      {
+        "label": "Initial CSS",
+        "value": 570868,
+        "displayValue": "557.49KB",
+        "delta": 570868,
+        "deltaPercentage": 100,
+        "displayDelta": "+557.49KB",
+        "displayDeltaPercentage": "+100%",
+        "deltaType": "HIGH_NEGATIVE"
+      },
+      {
+        "label": "Cache Invalidation",
+        "value": 0,
+        "displayValue": "0%",
+        "delta": 0,
+        "deltaPercentage": 0,
+        "displayDelta": "0%",
+        "displayDeltaPercentage": "0%",
+        "deltaType": "NO_CHANGE"
+      },
+      {
+        "label": "Modules",
+        "value": 140,
+        "displayValue": "140",
+        "delta": 140,
+        "deltaPercentage": 100,
+        "displayDelta": "+140",
+        "displayDeltaPercentage": "+100%",
+        "deltaType": "HIGH_NEGATIVE"
+      },
+      {
+        "label": "Chunks",
+        "value": 1,
+        "displayValue": "1",
+        "delta": 1,
+        "deltaPercentage": 100,
+        "displayDelta": "+1",
+        "displayDeltaPercentage": "+100%",
+        "deltaType": "HIGH_NEGATIVE"
+      },
+      {
+        "label": "Assets",
+        "value": 10,
+        "displayValue": "10",
+        "delta": 10,
+        "deltaPercentage": 100,
+        "displayDelta": "+10",
+        "displayDeltaPercentage": "+100%",
+        "deltaType": "HIGH_NEGATIVE"
+      },
+      {
+        "label": "Packages",
+        "value": 45,
+        "displayValue": "45",
+        "delta": 45,
+        "deltaPercentage": 100,
+        "displayDelta": "+45",
+        "displayDeltaPercentage": "+100%",
+        "deltaType": "HIGH_NEGATIVE"
+      },
+      {
+        "label": "Duplicate Packages",
+        "value": 1,
+        "displayValue": "1",
+        "delta": 1,
+        "deltaPercentage": 100,
+        "displayDelta": "+1",
+        "displayDeltaPercentage": "+100%",
+        "deltaType": "HIGH_NEGATIVE"
+      }
+    ]
+  },
+  "insights": {
+    "webpack": {
+      "assetsSizeTotal": {
+        "type": "INFO",
+        "data": {
+          "text": "Bundle Size — 1022.29KB (+100%).",
+          "md": "*Bundle Size* — *1022.29KB* (*+100%*).",
+          "info": {
+            "value": 1046822,
+            "displayValue": "1022.29KB",
+            "delta": 1046822,
+            "deltaPercentage": 100,
+            "displayDelta": "+1022.29KB",
+            "displayDeltaPercentage": "+100%",
+            "deltaType": "HIGH_NEGATIVE"
+          }
+        }
+      },
+      "duplicatePackages": {
+        "type": "WARNING",
+        "data": {
+          "@babel/runtime": [
+            "@babel/runtime",
+            "babel-preset-react-app:@babel/runtime"
+          ]
+        }
+      }
+    }
+  },
+  "stats": [
+    {
+      "key": "webpack.totalSizeByTypeALL",
+      "runs": [
+        {
+          "value": 1046822,
+          "displayValue": "1022.29KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "Bundle Size",
+      "changed": false
+    },
+    {
+      "key": "webpack.totalInitialSizeJS",
+      "runs": [
+        {
+          "value": 409086,
+          "displayValue": "399.5KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "Initial JS",
+      "changed": false
+    },
+    {
+      "key": "webpack.totalInitialSizeCSS",
+      "runs": [
+        {
+          "value": 570868,
+          "displayValue": "557.49KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "Initial CSS",
+      "changed": false
+    },
+    {
+      "key": "webpack.cacheInvalidation",
+      "runs": [
+        {
+          "value": 0,
+          "displayValue": "0%"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "Cache Invalidation",
+      "changed": false
+    },
+    {
+      "key": "webpack.moduleCount",
+      "runs": [
+        {
+          "value": 140,
+          "displayValue": "140"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "Modules",
+      "changed": false
+    },
+    {
+      "key": "webpack.chunkCount",
+      "runs": [
+        {
+          "value": 1,
+          "displayValue": "1"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "Chunks",
+      "changed": false
+    },
+    {
+      "key": "webpack.assetCount",
+      "runs": [
+        {
+          "value": 10,
+          "displayValue": "10"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "Assets",
+      "changed": false
+    },
+    {
+      "key": "webpack.packageCount",
+      "runs": [
+        {
+          "value": 45,
+          "displayValue": "45"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "Packages",
+      "changed": false
+    },
+    {
+      "key": "webpack.duplicatePackagesCount",
+      "runs": [
+        {
+          "value": 1,
+          "displayValue": "1"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "Duplicate Packages",
+      "changed": false
+    }
+  ],
+  "sizes": [
+    {
+      "key": "webpack.sizes.totalSizeByTypeJS",
+      "runs": [
+        {
+          "value": 468799,
+          "displayValue": "457.81KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "JS",
+      "changed": false
+    },
+    {
+      "key": "webpack.sizes.totalSizeByTypeCSS",
+      "runs": [
+        {
+          "value": 570868,
+          "displayValue": "557.49KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "CSS",
+      "changed": false
+    },
+    {
+      "key": "webpack.sizes.totalSizeByTypeIMG",
+      "runs": [
+        {
+          "value": 2671,
+          "displayValue": "2.61KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "IMG",
+      "changed": false
+    },
+    {
+      "key": "webpack.sizes.totalSizeByTypeMEDIA",
+      "runs": [
+        {
+          "value": 0,
+          "displayValue": "0B"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "Media",
+      "changed": false
+    },
+    {
+      "key": "webpack.sizes.totalSizeByTypeFONT",
+      "runs": [
+        {
+          "value": 0,
+          "displayValue": "0B"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "Fonts",
+      "changed": false
+    },
+    {
+      "key": "webpack.sizes.totalSizeByTypeHTML",
+      "runs": [
+        {
+          "value": 3093,
+          "displayValue": "3.02KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "HTML",
+      "changed": false
+    },
+    {
+      "key": "webpack.sizes.totalSizeByTypeOTHER",
+      "runs": [
+        {
+          "value": 1391,
+          "displayValue": "1.36KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "Other",
+      "changed": false
+    }
+  ],
+  "assets": [
+    {
+      "key": "asset-manifest.json",
+      "runs": [
+        {
+          "name": "asset-manifest.json",
+          "value": 1391,
+          "isEntry": false,
+          "isInitial": false,
+          "isChunk": false,
+          "displayValue": "1.36KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "asset-manifest.json",
+      "changed": false
+    },
+    {
+      "key": "index.html",
+      "runs": [
+        {
+          "name": "index.html",
+          "value": 3093,
+          "isEntry": false,
+          "isInitial": false,
+          "isChunk": false,
+          "displayValue": "3.02KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "index.html",
+      "changed": false
+    },
+    {
+      "key": "service-worker.js",
+      "runs": [
+        {
+          "name": "service-worker.js",
+          "value": 55538,
+          "isEntry": false,
+          "isInitial": false,
+          "isChunk": false,
+          "displayValue": "54.24KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "service-worker.js",
+      "changed": false
+    },
+    {
+      "key": "static/css/2.chunk.css",
+      "runs": [
+        {
+          "name": "static/css/2.cc6972a9.chunk.css",
+          "value": 570153,
+          "isEntry": true,
+          "isInitial": true,
+          "isChunk": false,
+          "displayValue": "556.79KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "static/css/2.chunk.css",
+      "changed": false
+    },
+    {
+      "key": "static/css/main.chunk.css",
+      "runs": [
+        {
+          "name": "static/css/main.f3d58af2.chunk.css",
+          "value": 715,
+          "isEntry": true,
+          "isInitial": true,
+          "isChunk": false,
+          "displayValue": "715B"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "static/css/main.chunk.css",
+      "changed": false
+    },
+    {
+      "key": "static/js/2.chunk.js",
+      "runs": [
+        {
+          "name": "static/js/2.4db26b50.chunk.js",
+          "value": 399383,
+          "isEntry": true,
+          "isInitial": true,
+          "isChunk": false,
+          "displayValue": "390.02KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "static/js/2.chunk.js",
+      "changed": false
+    },
+    {
+      "key": "static/js/3.chunk.js",
+      "runs": [
+        {
+          "name": "static/js/3.59f9be91.chunk.js",
+          "value": 4175,
+          "isEntry": false,
+          "isInitial": false,
+          "isChunk": true,
+          "displayValue": "4.08KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "static/js/3.chunk.js",
+      "changed": false
+    },
+    {
+      "key": "static/js/main.chunk.js",
+      "runs": [
+        {
+          "name": "static/js/main.ffe00d38.chunk.js",
+          "value": 7339,
+          "isEntry": true,
+          "isInitial": true,
+          "isChunk": false,
+          "displayValue": "7.17KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "static/js/main.chunk.js",
+      "changed": false
+    },
+    {
+      "key": "static/js/runtime-main.js",
+      "runs": [
+        {
+          "name": "static/js/runtime-main.3e230d85.js",
+          "value": 2364,
+          "isEntry": true,
+          "isInitial": true,
+          "isChunk": false,
+          "displayValue": "2.31KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "static/js/runtime-main.js",
+      "changed": false
+    },
+    {
+      "key": "static/media/logo.svg",
+      "runs": [
+        {
+          "name": "static/media/logo.103b5fa1.svg",
+          "value": 2671,
+          "isEntry": false,
+          "isInitial": false,
+          "isChunk": false,
+          "displayValue": "2.61KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "static/media/logo.svg",
+      "changed": false
+    }
+  ],
+  "modules": [
+    {
+      "chunkId": "0",
+      "chunkNames": [
+        "main"
+      ],
+      "modules": [
+        {
+          "key": "./src/index.css",
+          "runs": [
+            {
+              "name": "css ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/index.css",
+              "value": 366,
+              "displayValue": "366B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./src/index.css",
+          "changed": false
+        },
+        {
+          "key": "./src/App.css",
+          "runs": [
+            {
+              "name": "css ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/App.css",
+              "value": 454,
+              "displayValue": "454B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./src/App.css",
+          "changed": false
+        },
+        {
+          "key": "./src/index.tsx",
+          "runs": [
+            {
+              "name": "./src/index.tsx + 14 modules",
+              "value": 15067,
+              "displayValue": "14.71KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./src/index.tsx",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "chunkId": "2",
+      "chunkNames": [],
+      "modules": [
+        {
+          "key": "./node_modules/react/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/react/index.js",
+              "value": 189,
+              "displayValue": "189B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/react/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js",
+              "value": 1071,
+              "displayValue": "1.05KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/objectSpread2.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js + 1 modules",
+              "value": 1091,
+              "displayValue": "1.07KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/classnames/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/classnames/index.js",
+              "value": 1293,
+              "displayValue": "1.26KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/classnames/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/defineProperty.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/defineProperty.js",
+              "value": 269,
+              "displayValue": "269B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/defineProperty.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/defineProperty.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/defineProperty.js",
+              "value": 289,
+              "displayValue": "289B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/defineProperty.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/extends.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/extends.js",
+              "value": 427,
+              "displayValue": "427B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/extends.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/react/jsx-runtime.js",
+          "runs": [
+            {
+              "name": "./node_modules/react/jsx-runtime.js",
+              "value": 213,
+              "displayValue": "213B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/react/jsx-runtime.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/prop-types/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/prop-types/index.js",
+              "value": 707,
+              "displayValue": "707B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/prop-types/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-util/es/KeyCode.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-util/es/KeyCode.js",
+              "value": 6471,
+              "displayValue": "6.32KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-util/es/KeyCode.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
+          "runs": [
+            {
+              "name": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js + 3 modules",
+              "value": 1377,
+              "displayValue": "1.34KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/slicedToArray.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-util/es/raf.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-util/es/raf.js",
+              "value": 485,
+              "displayValue": "485B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-util/es/raf.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+              "value": 192,
+              "displayValue": "192B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js",
+              "value": 176,
+              "displayValue": "176B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/createClass.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/createClass.js",
+              "value": 579,
+              "displayValue": "579B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/createClass.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/inherits.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/inherits.js + 1 modules",
+              "value": 712,
+              "displayValue": "712B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/inherits.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/createSuper.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/createSuper.js + 1 modules",
+              "value": 1122,
+              "displayValue": "1.1KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/createSuper.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/react-dom/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/react-dom/index.js",
+              "value": 1352,
+              "displayValue": "1.32KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/react-dom/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/typeof.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/typeof.js",
+              "value": 433,
+              "displayValue": "433B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/typeof.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@emotion/react/dist/emotion-element-4fbd89c5.browser.esm.js",
+          "runs": [
+            {
+              "name": "./node_modules/@emotion/react/dist/emotion-element-4fbd89c5.browser.esm.js",
+              "value": 6558,
+              "displayValue": "6.4KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@emotion/react/dist/emotion-element-4fbd89c5.browser.esm.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+              "value": 397,
+              "displayValue": "397B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/extends.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js + 1 modules",
+              "value": 1007,
+              "displayValue": "1007B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-util/es/ref.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-util/es/ref.js",
+              "value": 1264,
+              "displayValue": "1.23KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-util/es/ref.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/typeof.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/typeof.js",
+              "value": 479,
+              "displayValue": "479B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/typeof.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/use-context-selector/dist/index.modern.js",
+          "runs": [
+            {
+              "name": "./node_modules/use-context-selector/dist/index.modern.js",
+              "value": 4019,
+              "displayValue": "3.92KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/use-context-selector/dist/index.modern.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+              "value": 147,
+              "displayValue": "147B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/interopRequireDefault.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-util/es/warning.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-util/es/warning.js",
+              "value": 835,
+              "displayValue": "835B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-util/es/warning.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-motion/es/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-motion/es/index.js + 12 modules",
+              "value": 29487,
+              "displayValue": "28.8KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-motion/es/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@emotion/memoize/dist/emotion-memoize.browser.esm.js",
+          "runs": [
+            {
+              "name": "./node_modules/@emotion/memoize/dist/emotion-memoize.browser.esm.js",
+              "value": 194,
+              "displayValue": "194B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@emotion/memoize/dist/emotion-memoize.browser.esm.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js",
+          "runs": [
+            {
+              "name": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js",
+              "value": 225,
+              "displayValue": "225B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/taggedTemplateLiteral.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/jotai/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/jotai/index.js",
+              "value": 21610,
+              "displayValue": "21.1KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/jotai/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-util/es/Dom/canUseDom.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-util/es/Dom/canUseDom.js",
+              "value": 135,
+              "displayValue": "135B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-util/es/Dom/canUseDom.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@emotion/react/node_modules/@emotion/utils/dist/emotion-utils.browser.esm.js",
+          "runs": [
+            {
+              "name": "./node_modules/@emotion/react/node_modules/@emotion/utils/dist/emotion-utils.browser.esm.js",
+              "value": 1579,
+              "displayValue": "1.54KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@emotion/react/node_modules/@emotion/utils/dist/emotion-utils.browser.esm.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js",
+          "runs": [
+            {
+              "name": "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js",
+              "value": 78607,
+              "displayValue": "76.76KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-util/es/Dom/addEventListener.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-util/es/Dom/addEventListener.js",
+              "value": 522,
+              "displayValue": "522B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-util/es/Dom/addEventListener.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+              "value": 1191,
+              "displayValue": "1.16KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/interopRequireWildcard.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@emotion/react/dist/emotion-react.browser.esm.js",
+          "runs": [
+            {
+              "name": "./node_modules/@emotion/react/dist/emotion-react.browser.esm.js + 1 modules",
+              "value": 14228,
+              "displayValue": "13.89KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@emotion/react/dist/emotion-react.browser.esm.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+          "runs": [
+            {
+              "name": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+              "value": 2744,
+              "displayValue": "2.68KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/omit.js/es/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/omit.js/es/index.js",
+              "value": 276,
+              "displayValue": "276B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/omit.js/es/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-util/es/Children/toArray.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-util/es/Children/toArray.js",
+              "value": 609,
+              "displayValue": "609B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-util/es/Children/toArray.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-util/es/Dom/findDOMNode.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-util/es/Dom/findDOMNode.js",
+              "value": 253,
+              "displayValue": "253B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-util/es/Dom/findDOMNode.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js",
+          "runs": [
+            {
+              "name": "./node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js",
+              "value": 30920,
+              "displayValue": "30.2KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@emotion/react/node_modules/@emotion/serialize/dist/emotion-serialize.browser.esm.js",
+          "runs": [
+            {
+              "name": "./node_modules/@emotion/react/node_modules/@emotion/serialize/dist/emotion-serialize.browser.esm.js",
+              "value": 10994,
+              "displayValue": "10.74KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@emotion/react/node_modules/@emotion/serialize/dist/emotion-serialize.browser.esm.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-util/es/Dom/contains.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-util/es/Dom/contains.js",
+              "value": 110,
+              "displayValue": "110B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-util/es/Dom/contains.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js + 2 modules",
+              "value": 897,
+              "displayValue": "897B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@emotion/weak-memoize/dist/weak-memoize.browser.esm.js",
+          "runs": [
+            {
+              "name": "./node_modules/@emotion/weak-memoize/dist/weak-memoize.browser.esm.js",
+              "value": 371,
+              "displayValue": "371B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@emotion/weak-memoize/dist/weak-memoize.browser.esm.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/react-is/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/react-is/index.js",
+              "value": 195,
+              "displayValue": "195B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/react-is/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/scheduler/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/scheduler/index.js",
+              "value": 197,
+              "displayValue": "197B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/scheduler/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/defineProperty.js",
+          "runs": [
+            {
+              "name": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/defineProperty.js",
+              "value": 269,
+              "displayValue": "269B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/defineProperty.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js",
+              "value": 212,
+              "displayValue": "212B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/arrayLikeToArray.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-util/es/hooks/useMergedState.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-util/es/hooks/useMergedState.js",
+              "value": 1440,
+              "displayValue": "1.41KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-util/es/hooks/useMergedState.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/shallowequal/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/shallowequal/index.js",
+              "value": 972,
+              "displayValue": "972B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/shallowequal/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2.js",
+          "runs": [
+            {
+              "name": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2.js",
+              "value": 1071,
+              "displayValue": "1.05KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectSpread2.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js",
+          "runs": [
+            {
+              "name": "./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js + 4 modules",
+              "value": 24728,
+              "displayValue": "24.15KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js",
+          "changed": false
+        },
+        {
+          "key": "(webpack)/buildin/global.js",
+          "runs": [
+            {
+              "name": "(webpack)/buildin/global.js",
+              "value": 475,
+              "displayValue": "475B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "(webpack)/buildin/global.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/icons/lib/components/AntdIcon.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/icons/lib/components/AntdIcon.js",
+              "value": 2744,
+              "displayValue": "2.68KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/icons/lib/components/AntdIcon.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
+              "value": 432,
+              "displayValue": "432B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/slicedToArray.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@emotion/hash/dist/hash.browser.esm.js",
+          "runs": [
+            {
+              "name": "./node_modules/@emotion/hash/dist/hash.browser.esm.js",
+              "value": 1647,
+              "displayValue": "1.61KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@emotion/hash/dist/hash.browser.esm.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@emotion/unitless/dist/unitless.browser.esm.js",
+          "runs": [
+            {
+              "name": "./node_modules/@emotion/unitless/dist/unitless.browser.esm.js",
+              "value": 897,
+              "displayValue": "897B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@emotion/unitless/dist/unitless.browser.esm.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/react-css-theme-switcher/dist/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/react-css-theme-switcher/dist/index.js",
+              "value": 227,
+              "displayValue": "227B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/react-css-theme-switcher/dist/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
+              "value": 517,
+              "displayValue": "517B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/antd/es/_util/devWarning.js",
+          "runs": [
+            {
+              "name": "./node_modules/antd/es/_util/devWarning.js",
+              "value": 216,
+              "displayValue": "216B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/antd/es/_util/devWarning.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
+              "value": 196,
+              "displayValue": "196B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/classCallCheck.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/createClass.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/createClass.js",
+              "value": 596,
+              "displayValue": "596B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/createClass.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/inherits.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/inherits.js",
+              "value": 505,
+              "displayValue": "505B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/inherits.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/createSuper.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/createSuper.js",
+              "value": 702,
+              "displayValue": "702B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/createSuper.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/antd/es/config-provider/SizeContext.js",
+          "runs": [
+            {
+              "name": "./node_modules/antd/es/config-provider/SizeContext.js",
+              "value": 469,
+              "displayValue": "469B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/antd/es/config-provider/SizeContext.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-util/es/isMobile.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-util/es/isMobile.js",
+              "value": 2098,
+              "displayValue": "2.05KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-util/es/isMobile.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-trigger/es/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-trigger/es/index.js + 14 modules",
+              "value": 87665,
+              "displayValue": "85.61KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-trigger/es/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
+          "runs": [
+            {
+              "name": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js + 1 modules",
+              "value": 729,
+              "displayValue": "729B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/unsupportedIterableToArray.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/object-assign/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/object-assign/index.js",
+              "value": 2226,
+              "displayValue": "2.17KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/object-assign/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/process/browser.js",
+          "runs": [
+            {
+              "name": "./node_modules/process/browser.js",
+              "value": 5081,
+              "displayValue": "4.96KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/process/browser.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/icons/lib/utils.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/icons/lib/utils.js",
+              "value": 4448,
+              "displayValue": "4.34KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/icons/lib/utils.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@emotion/react/isolated-hoist-non-react-statics-do-not-use-this-in-your-code/dist/emotion-react-isolated-hoist-non-react-statics-do-not-use-this-in-your-code.browser.esm.js",
+          "runs": [
+            {
+              "name": "./node_modules/@emotion/react/isolated-hoist-non-react-statics-do-not-use-this-in-your-code/dist/emotion-react-isolated-hoist-non-react-statics-do-not-use-this-in-your-code.browser.esm.js",
+              "value": 468,
+              "displayValue": "468B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@emotion/react/isolated-hoist-non-react-statics-do-not-use-this-in-your-code/dist/emotion-react-isolated-hoist-non-react-statics-do-not-use-this-in-your-code.browser.esm.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/assertThisInitialized.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/assertThisInitialized.js",
+              "value": 219,
+              "displayValue": "219B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/assertThisInitialized.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@emotion/cache/dist/emotion-cache.browser.esm.js",
+          "runs": [
+            {
+              "name": "./node_modules/@emotion/cache/dist/emotion-cache.browser.esm.js + 2 modules",
+              "value": 25867,
+              "displayValue": "25.26KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@emotion/cache/dist/emotion-cache.browser.esm.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-resize-observer/es/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-resize-observer/es/index.js",
+              "value": 5282,
+              "displayValue": "5.16KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-resize-observer/es/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js",
+              "value": 230,
+              "displayValue": "230B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/regenerator/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/regenerator/index.js",
+              "value": 49,
+              "displayValue": "49B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/regenerator/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@fortawesome/pro-solid-svg-icons/index.es.js",
+          "runs": [
+            {
+              "name": "./node_modules/@fortawesome/pro-solid-svg-icons/index.es.js",
+              "value": 1341677,
+              "displayValue": "1.28MB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@fortawesome/pro-solid-svg-icons/index.es.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@fortawesome/pro-duotone-svg-icons/index.es.js",
+          "runs": [
+            {
+              "name": "./node_modules/@fortawesome/pro-duotone-svg-icons/index.es.js",
+              "value": 1434864,
+              "displayValue": "1.37MB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@fortawesome/pro-duotone-svg-icons/index.es.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-menu/es/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-menu/es/index.js + 16 modules",
+              "value": 83628,
+              "displayValue": "81.67KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-menu/es/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+              "value": 665,
+              "displayValue": "665B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/objectWithoutProperties.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/icons/lib/components/IconBase.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/icons/lib/components/IconBase.js",
+              "value": 2508,
+              "displayValue": "2.45KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/icons/lib/components/IconBase.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/objectSpread2.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/objectSpread2.js",
+              "value": 1068,
+              "displayValue": "1.04KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/objectSpread2.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js",
+          "runs": [
+            {
+              "name": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js",
+              "value": 1414,
+              "displayValue": "1.38KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/createForOfIteratorHelper.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@fortawesome/react-fontawesome/index.es.js",
+          "runs": [
+            {
+              "name": "./node_modules/@fortawesome/react-fontawesome/index.es.js",
+              "value": 11146,
+              "displayValue": "10.88KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@fortawesome/react-fontawesome/index.es.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js",
+              "value": 86,
+              "displayValue": "86B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/arrayWithHoles.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js",
+              "value": 210,
+              "displayValue": "210B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/nonIterableRest.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/icons/LoadingOutlined.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/icons/LoadingOutlined.js",
+              "value": 389,
+              "displayValue": "389B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/icons/LoadingOutlined.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/iterableToArray.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/iterableToArray.js",
+              "value": 147,
+              "displayValue": "147B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/iterableToArray.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js",
+              "value": 345,
+              "displayValue": "345B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-util/es/Portal.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-util/es/Portal.js",
+              "value": 1546,
+              "displayValue": "1.51KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-util/es/Portal.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-util/es/Dom/isVisible.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-util/es/Dom/isVisible.js",
+              "value": 428,
+              "displayValue": "428B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-util/es/Dom/isVisible.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js",
+              "value": 787,
+              "displayValue": "787B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/icons/CloseOutlined.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/icons/CloseOutlined.js",
+              "value": 383,
+              "displayValue": "383B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/icons/CloseOutlined.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/icons/PlusOutlined.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/icons/PlusOutlined.js",
+              "value": 380,
+              "displayValue": "380B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/icons/PlusOutlined.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/icons/EllipsisOutlined.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/icons/EllipsisOutlined.js",
+              "value": 392,
+              "displayValue": "392B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/icons/EllipsisOutlined.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@fortawesome/pro-regular-svg-icons/index.es.js",
+          "runs": [
+            {
+              "name": "./node_modules/@fortawesome/pro-regular-svg-icons/index.es.js",
+              "value": 1600202,
+              "displayValue": "1.53MB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@fortawesome/pro-regular-svg-icons/index.es.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "runs": [
+            {
+              "name": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+              "value": 1207,
+              "displayValue": "1.18KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/react/cjs/react-jsx-runtime.production.min.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/react/cjs/react.production.min.js",
+          "runs": [
+            {
+              "name": "./node_modules/react/cjs/react.production.min.js",
+              "value": 8685,
+              "displayValue": "8.48KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/react/cjs/react.production.min.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "runs": [
+            {
+              "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+              "value": 179541,
+              "displayValue": "175.33KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/react-dom/cjs/react-dom.production.min.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "runs": [
+            {
+              "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+              "value": 6825,
+              "displayValue": "6.67KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/react-is/cjs/react-is.production.min.js",
+          "runs": [
+            {
+              "name": "./node_modules/react-is/cjs/react-is.production.min.js",
+              "value": 3401,
+              "displayValue": "3.32KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/react-is/cjs/react-is.production.min.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/react-css-theme-switcher/dist/react-css-theme-switcher.cjs.production.min.js",
+          "runs": [
+            {
+              "name": "./node_modules/react-css-theme-switcher/dist/react-css-theme-switcher.cjs.production.min.js",
+              "value": 3447,
+              "displayValue": "3.37KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/react-css-theme-switcher/dist/react-css-theme-switcher.cjs.production.min.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/timers-browserify/main.js",
+          "runs": [
+            {
+              "name": "./node_modules/timers-browserify/main.js",
+              "value": 1892,
+              "displayValue": "1.85KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/timers-browserify/main.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/setimmediate/setImmediate.js",
+          "runs": [
+            {
+              "name": "./node_modules/setimmediate/setImmediate.js",
+              "value": 5948,
+              "displayValue": "5.81KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/setimmediate/setImmediate.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/prop-types/factoryWithThrowingShims.js",
+          "runs": [
+            {
+              "name": "./node_modules/prop-types/factoryWithThrowingShims.js",
+              "value": 1603,
+              "displayValue": "1.57KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/prop-types/factoryWithThrowingShims.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+          "runs": [
+            {
+              "name": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+              "value": 311,
+              "displayValue": "311B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/prop-types/lib/ReactPropTypesSecret.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/setPrototypeOf.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/setPrototypeOf.js",
+              "value": 237,
+              "displayValue": "237B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/setPrototypeOf.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+              "value": 267,
+              "displayValue": "267B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/getPrototypeOf.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/isNativeReflectConstruct.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/isNativeReflectConstruct.js",
+              "value": 394,
+              "displayValue": "394B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/isNativeReflectConstruct.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+              "value": 355,
+              "displayValue": "355B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/possibleConstructorReturn.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/icons/lib/icons/LoadingOutlined.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/icons/lib/icons/LoadingOutlined.js",
+              "value": 937,
+              "displayValue": "937B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/icons/lib/icons/LoadingOutlined.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/icons-svg/lib/asn/LoadingOutlined.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/icons-svg/lib/asn/LoadingOutlined.js",
+              "value": 751,
+              "displayValue": "751B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/icons-svg/lib/asn/LoadingOutlined.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
+              "value": 106,
+              "displayValue": "106B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/arrayWithHoles.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
+              "value": 605,
+              "displayValue": "605B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/iterableToArrayLimit.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
+              "value": 528,
+              "displayValue": "528B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/unsupportedIterableToArray.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
+              "value": 234,
+              "displayValue": "234B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/arrayLikeToArray.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
+              "value": 231,
+              "displayValue": "231B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/nonIterableRest.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
+          "runs": [
+            {
+              "name": "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
+              "value": 384,
+              "displayValue": "384B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@babel/runtime/helpers/objectWithoutPropertiesLoose.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/rc-util/lib/warning.js",
+          "runs": [
+            {
+              "name": "./node_modules/rc-util/lib/warning.js",
+              "value": 1104,
+              "displayValue": "1.08KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/rc-util/lib/warning.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/insert-css/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/insert-css/index.js",
+              "value": 1871,
+              "displayValue": "1.83KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/insert-css/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/icons/lib/components/twoTonePrimaryColor.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/icons/lib/components/twoTonePrimaryColor.js",
+              "value": 1082,
+              "displayValue": "1.06KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/icons/lib/components/twoTonePrimaryColor.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/regenerator-runtime/runtime.js",
+          "runs": [
+            {
+              "name": "./node_modules/regenerator-runtime/runtime.js",
+              "value": 24371,
+              "displayValue": "23.8KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/regenerator-runtime/runtime.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/icons/lib/icons/CloseOutlined.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/icons/lib/icons/CloseOutlined.js",
+              "value": 921,
+              "displayValue": "921B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/icons/lib/icons/CloseOutlined.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/icons-svg/lib/asn/CloseOutlined.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/icons-svg/lib/asn/CloseOutlined.js",
+              "value": 742,
+              "displayValue": "742B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/icons-svg/lib/asn/CloseOutlined.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/icons/lib/icons/PlusOutlined.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/icons/lib/icons/PlusOutlined.js",
+              "value": 913,
+              "displayValue": "913B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/icons/lib/icons/PlusOutlined.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/icons-svg/lib/asn/PlusOutlined.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/icons-svg/lib/asn/PlusOutlined.js",
+              "value": 735,
+              "displayValue": "735B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/icons-svg/lib/asn/PlusOutlined.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/icons/lib/icons/EllipsisOutlined.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/icons/lib/icons/EllipsisOutlined.js",
+              "value": 945,
+              "displayValue": "945B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/icons/lib/icons/EllipsisOutlined.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/icons-svg/lib/asn/EllipsisOutlined.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/icons-svg/lib/asn/EllipsisOutlined.js",
+              "value": 561,
+              "displayValue": "561B"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/icons-svg/lib/asn/EllipsisOutlined.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/antd/dist/antd.css",
+          "runs": [
+            {
+              "name": "css ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./node_modules/antd/dist/antd.css",
+              "value": 719981,
+              "displayValue": "703.11KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/antd/dist/antd.css",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/@ant-design/colors/dist/index.esm.js",
+          "runs": [
+            {
+              "name": "./node_modules/@ant-design/colors/dist/index.esm.js + 5 modules",
+              "value": 39064,
+              "displayValue": "38.15KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/@ant-design/colors/dist/index.esm.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/antd/es/card/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/antd/es/card/index.js + 28 modules",
+              "value": 78943,
+              "displayValue": "77.09KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/antd/es/card/index.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/antd/es/config-provider/context.js",
+          "runs": [
+            {
+              "name": "./node_modules/antd/es/config-provider/context.js + 13 modules",
+              "value": 18173,
+              "displayValue": "17.75KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/antd/es/config-provider/context.js",
+          "changed": false
+        },
+        {
+          "key": "./node_modules/antd/es/switch/index.js",
+          "runs": [
+            {
+              "name": "./node_modules/antd/es/switch/index.js + 4 modules",
+              "value": 14272,
+              "displayValue": "13.94KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/antd/es/switch/index.js",
+          "changed": false
+        }
+      ]
+    },
+    {
+      "chunkId": "3",
+      "chunkNames": [],
+      "modules": [
+        {
+          "key": "./node_modules/web-vitals/dist/web-vitals.js",
+          "runs": [
+            {
+              "name": "./node_modules/web-vitals/dist/web-vitals.js",
+              "value": 5550,
+              "displayValue": "5.42KB"
+            }
+          ],
+          "biggerIsBetter": false,
+          "label": "./node_modules/web-vitals/dist/web-vitals.js",
+          "changed": false
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "key": "react",
+      "runs": [
+        {
+          "value": 10294,
+          "displayValue": "10.05KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "react",
+      "changed": false
+    },
+    {
+      "key": "@babel/runtime",
+      "runs": [
+        {
+          "value": 20786,
+          "displayValue": "20.3KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@babel/runtime",
+      "changed": false
+    },
+    {
+      "key": "classnames",
+      "runs": [
+        {
+          "value": 1293,
+          "displayValue": "1.26KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "classnames",
+      "changed": false
+    },
+    {
+      "key": "prop-types",
+      "runs": [
+        {
+          "value": 2621,
+          "displayValue": "2.56KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "prop-types",
+      "changed": false
+    },
+    {
+      "key": "rc-util",
+      "runs": [
+        {
+          "value": 17300,
+          "displayValue": "16.89KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "rc-util",
+      "changed": false
+    },
+    {
+      "key": "babel-preset-react-app:@babel/runtime",
+      "runs": [
+        {
+          "value": 5085,
+          "displayValue": "4.97KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "babel-preset-react-app:@babel/runtime",
+      "changed": false
+    },
+    {
+      "key": "react-dom",
+      "runs": [
+        {
+          "value": 180893,
+          "displayValue": "176.65KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "react-dom",
+      "changed": false
+    },
+    {
+      "key": "@emotion/react",
+      "runs": [
+        {
+          "value": 21254,
+          "displayValue": "20.76KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@emotion/react",
+      "changed": false
+    },
+    {
+      "key": "use-context-selector",
+      "runs": [
+        {
+          "value": 4019,
+          "displayValue": "3.92KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "use-context-selector",
+      "changed": false
+    },
+    {
+      "key": "rc-motion",
+      "runs": [
+        {
+          "value": 29487,
+          "displayValue": "28.8KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "rc-motion",
+      "changed": false
+    },
+    {
+      "key": "@emotion/memoize",
+      "runs": [
+        {
+          "value": 194,
+          "displayValue": "194B"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@emotion/memoize",
+      "changed": false
+    },
+    {
+      "key": "jotai",
+      "runs": [
+        {
+          "value": 21610,
+          "displayValue": "21.1KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "jotai",
+      "changed": false
+    },
+    {
+      "key": "@emotion/react:@emotion/utils",
+      "runs": [
+        {
+          "value": 1579,
+          "displayValue": "1.54KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@emotion/react:@emotion/utils",
+      "changed": false
+    },
+    {
+      "key": "@fortawesome/fontawesome-svg-core",
+      "runs": [
+        {
+          "value": 78607,
+          "displayValue": "76.76KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@fortawesome/fontawesome-svg-core",
+      "changed": false
+    },
+    {
+      "key": "hoist-non-react-statics",
+      "runs": [
+        {
+          "value": 2744,
+          "displayValue": "2.68KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "hoist-non-react-statics",
+      "changed": false
+    },
+    {
+      "key": "omit.js",
+      "runs": [
+        {
+          "value": 276,
+          "displayValue": "276B"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "omit.js",
+      "changed": false
+    },
+    {
+      "key": "resize-observer-polyfill",
+      "runs": [
+        {
+          "value": 30920,
+          "displayValue": "30.2KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "resize-observer-polyfill",
+      "changed": false
+    },
+    {
+      "key": "@emotion/react:@emotion/serialize",
+      "runs": [
+        {
+          "value": 10994,
+          "displayValue": "10.74KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@emotion/react:@emotion/serialize",
+      "changed": false
+    },
+    {
+      "key": "@emotion/weak-memoize",
+      "runs": [
+        {
+          "value": 371,
+          "displayValue": "371B"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@emotion/weak-memoize",
+      "changed": false
+    },
+    {
+      "key": "react-is",
+      "runs": [
+        {
+          "value": 3596,
+          "displayValue": "3.51KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "react-is",
+      "changed": false
+    },
+    {
+      "key": "scheduler",
+      "runs": [
+        {
+          "value": 7022,
+          "displayValue": "6.86KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "scheduler",
+      "changed": false
+    },
+    {
+      "key": "shallowequal",
+      "runs": [
+        {
+          "value": 972,
+          "displayValue": "972B"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "shallowequal",
+      "changed": false
+    },
+    {
+      "key": "@emotion/styled",
+      "runs": [
+        {
+          "value": 24728,
+          "displayValue": "24.15KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@emotion/styled",
+      "changed": false
+    },
+    {
+      "key": "@ant-design/icons",
+      "runs": [
+        {
+          "value": 16042,
+          "displayValue": "15.67KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@ant-design/icons",
+      "changed": false
+    },
+    {
+      "key": "@emotion/hash",
+      "runs": [
+        {
+          "value": 1647,
+          "displayValue": "1.61KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@emotion/hash",
+      "changed": false
+    },
+    {
+      "key": "@emotion/unitless",
+      "runs": [
+        {
+          "value": 897,
+          "displayValue": "897B"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@emotion/unitless",
+      "changed": false
+    },
+    {
+      "key": "react-css-theme-switcher",
+      "runs": [
+        {
+          "value": 3674,
+          "displayValue": "3.59KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "react-css-theme-switcher",
+      "changed": false
+    },
+    {
+      "key": "antd",
+      "runs": [
+        {
+          "value": 832054,
+          "displayValue": "812.55KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "antd",
+      "changed": false
+    },
+    {
+      "key": "rc-trigger",
+      "runs": [
+        {
+          "value": 87665,
+          "displayValue": "85.61KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "rc-trigger",
+      "changed": false
+    },
+    {
+      "key": "object-assign",
+      "runs": [
+        {
+          "value": 2226,
+          "displayValue": "2.17KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "object-assign",
+      "changed": false
+    },
+    {
+      "key": "process",
+      "runs": [
+        {
+          "value": 5081,
+          "displayValue": "4.96KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "process",
+      "changed": false
+    },
+    {
+      "key": "@emotion/cache",
+      "runs": [
+        {
+          "value": 25867,
+          "displayValue": "25.26KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@emotion/cache",
+      "changed": false
+    },
+    {
+      "key": "rc-resize-observer",
+      "runs": [
+        {
+          "value": 5282,
+          "displayValue": "5.16KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "rc-resize-observer",
+      "changed": false
+    },
+    {
+      "key": "@fortawesome/pro-solid-svg-icons",
+      "runs": [
+        {
+          "value": 1341677,
+          "displayValue": "1.28MB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@fortawesome/pro-solid-svg-icons",
+      "changed": false
+    },
+    {
+      "key": "@fortawesome/pro-duotone-svg-icons",
+      "runs": [
+        {
+          "value": 1434864,
+          "displayValue": "1.37MB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@fortawesome/pro-duotone-svg-icons",
+      "changed": false
+    },
+    {
+      "key": "rc-menu",
+      "runs": [
+        {
+          "value": 83628,
+          "displayValue": "81.67KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "rc-menu",
+      "changed": false
+    },
+    {
+      "key": "@fortawesome/react-fontawesome",
+      "runs": [
+        {
+          "value": 11146,
+          "displayValue": "10.88KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@fortawesome/react-fontawesome",
+      "changed": false
+    },
+    {
+      "key": "@fortawesome/pro-regular-svg-icons",
+      "runs": [
+        {
+          "value": 1600202,
+          "displayValue": "1.53MB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@fortawesome/pro-regular-svg-icons",
+      "changed": false
+    },
+    {
+      "key": "timers-browserify",
+      "runs": [
+        {
+          "value": 1892,
+          "displayValue": "1.85KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "timers-browserify",
+      "changed": false
+    },
+    {
+      "key": "setimmediate",
+      "runs": [
+        {
+          "value": 5948,
+          "displayValue": "5.81KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "setimmediate",
+      "changed": false
+    },
+    {
+      "key": "@ant-design/icons-svg",
+      "runs": [
+        {
+          "value": 2789,
+          "displayValue": "2.72KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@ant-design/icons-svg",
+      "changed": false
+    },
+    {
+      "key": "insert-css",
+      "runs": [
+        {
+          "value": 1871,
+          "displayValue": "1.83KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "insert-css",
+      "changed": false
+    },
+    {
+      "key": "regenerator-runtime",
+      "runs": [
+        {
+          "value": 24371,
+          "displayValue": "23.8KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "regenerator-runtime",
+      "changed": false
+    },
+    {
+      "key": "@ant-design/colors",
+      "runs": [
+        {
+          "value": 39064,
+          "displayValue": "38.15KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "@ant-design/colors",
+      "changed": false
+    },
+    {
+      "key": "web-vitals",
+      "runs": [
+        {
+          "value": 5550,
+          "displayValue": "5.42KB"
+        }
+      ],
+      "biggerIsBetter": false,
+      "label": "web-vitals",
+      "changed": false
+    }
+  ]
+}

@@ -67,6 +67,7 @@
     "@types/react-dom": "^17.0.0",
     "autoprefixer": "9.0.0",
     "babel-loader": "8.1.0",
+    "bundle-stats": "^2.5.0",
     "bundlesize": "^0.18.1",
     "cypress": "^6.2.1",
     "gulp": "^4.0.2",
