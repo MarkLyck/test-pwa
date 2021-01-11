@@ -4,7 +4,7 @@ import styled from '@emotion/styled'
 import './App.css'
 import { Card } from 'antd'
 import GlobalStyles from 'src/lib/GlobalStyles'
-import ThemeSwitch from './components/ThemeSwitch'
+import ThemeSwitch from 'src/components/ThemeSwitch'
 
 const Test = styled.div`
   background: ${(p) => p.theme.palette.text[100]};

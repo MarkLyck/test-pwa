@@ -1,0 +1,19 @@
+name: Test
+
+on: [push]
+
+jobs:
+  bundle-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: yarn install
+        run: yarn install
+      - name: build stats
+        run: yarn build --stats
+      - name: Run bundle-stats
+        uses: vio/bundle-stats-action@v1.1.0
+        with:
+          webpack-stats-path: 'build/bundle-stats.json'
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
