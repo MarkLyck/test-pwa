@@ -114,7 +114,12 @@
         "path": "./build/static/js/*.js",
         "maxSize": "250kB"
       }
-    ]
+    ],
+    "ci": {
+      "trackBranches": [
+        "main"
+      ]
+    }
   },
   "browserslist": {
     "production": [
