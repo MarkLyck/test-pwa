@@ -25,5 +25,6 @@ comment:
   require_head: no # default yes
   require_base: no # default yes
 
-# ignore:
-#   - "src/service-worker.ts"  # create-react-app service-worker
+ignore:
+  - "src/service-worker.ts"  # create-react-app service-worker
+  - "src/**/*.stories.*"  # create-react-app service-worker
