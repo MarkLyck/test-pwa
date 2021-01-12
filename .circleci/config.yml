@@ -27,7 +27,7 @@ jobs:
             - ~/.cache/yarn
       - run:
           name: "Run Jest and Collect Coverage Reports"
-          command: yarn test:ci
+          command: yarn test:unit --ci --coverage
       - store_artifacts:
           path: coverage
       - codecov/upload:
