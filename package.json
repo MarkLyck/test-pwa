@@ -1,5 +1,6 @@
 {
   "name": "test-pwa",
+  "_": "[bump]",
   "version": "0.1.4",
   "private": true,
   "scripts": {

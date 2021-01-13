@@ -1,0 +1,20 @@
+name: "Bump Version"
+
+on:
+  push:
+    branches:
+      - "master"
+
+jobs:
+  bump-version:
+    name: "Bump Version on master"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Checkout source code"
+        uses: "actions/checkout@v2"
+      - name: Bump Versions
+        uses: remorses/bump-version@v8
+        with:
+          version_file: ./package.json
+          github_token: ${{ secrets.GITHUB_TOKEN }}
