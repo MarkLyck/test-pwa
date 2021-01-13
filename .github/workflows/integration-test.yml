@@ -11,7 +11,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          build: npm run build-and-serve
+          build: yarn build-and-serve
           record: true
         env:
           # pass the Dashboard record key as an environment variable
