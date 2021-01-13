@@ -72,6 +72,7 @@
     "bundle-stats": "2.5.0",
     "bundlesize": "0.18.1",
     "cypress": "6.2.1",
+    "gitmoji-cli": "^3.2.18",
     "gulp": "4.0.2",
     "gulp-csso": "4.0.1",
     "gulp-debug": "4.0.0",
@@ -82,6 +83,7 @@
     "react-app-rewire-alias": "0.1.9",
     "react-app-rewired": "2.1.8",
     "react-scripts": "4.0.1",
+    "serve": "^11.3.2",
     "start-server-and-test": "1.11.7",
     "tsconfig-paths-webpack-plugin": "3.3.0",
     "typescript": "4.1.3"
