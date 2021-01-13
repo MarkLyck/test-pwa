@@ -1,5 +1,4 @@
 import React from 'react'
-import isPropValid from '@emotion/is-prop-valid'
 import styled from '@emotion/styled'
 import { useThemeSwitcher } from "react-css-theme-switcher";
 import { useAtom } from 'jotai'
@@ -12,7 +11,7 @@ const SwitchIcon = styled(FontAwesomeIcon)`
     width: 10px;
 `
 
-const StyledSwitch = styled(Switch, { shouldForwardProp: isPropValid })`
+const StyledSwitch = styled(Switch, { shouldForwardProp: p => p !== 'themeType' })`
 && {
     background-color: ${(p: { theme?: any, themeType: string }) => p.themeType === 'light'
         ? p.theme.palette.warning[400]
