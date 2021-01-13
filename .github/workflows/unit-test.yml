@@ -9,3 +9,7 @@ jobs:
       run: yarn
     - name: Unit test
       run: yarn test:unit --ci --coverage
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v1
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
