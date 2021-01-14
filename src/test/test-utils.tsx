@@ -6,15 +6,14 @@ import { ThemeProvider } from '@emotion/react'
 import { ThemeSwitcherProvider } from "react-css-theme-switcher";
 // Utils
 import Compose from 'src/lib/Compose'
-import themes from 'src/lib/themes'
-import { themeMap } from 'src/lib/AppProvider'
+import themes, { antDThemeMap } from 'src/lib/themes'
 
 const AllTheProviders = ({ children }: any) => {
   return (
     <Compose
       components={[
         JotaiProvider,
-        [ThemeSwitcherProvider, { themeMap: themeMap, defaultTheme: 'light' }],
+        [ThemeSwitcherProvider, { themeMap: antDThemeMap, defaultTheme: 'light' }],
         [ThemeProvider, { theme: themes.light }]
       ]}
     >
