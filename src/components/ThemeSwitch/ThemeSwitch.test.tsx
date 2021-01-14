@@ -1,11 +1,19 @@
 import React from 'react'
-import { render, screen } from 'src/test/test-utils'
+import { render, fireEvent } from 'src/test/test-utils'
 
 import ThemeSwitch from './index'
 
-test.skip('renders theme switch', () => {
-    render(<ThemeSwitch />)
+test('renders theme switch', () => {
+    const { container } = render(<ThemeSwitch />)
 
-    const linkElement = screen.getByText(/default-button/i)
-    expect(linkElement).toBeInTheDocument()
+    const button: any = container.querySelector('button')
+    expect(button).toHaveAttribute('aria-checked', 'true')
+
+    fireEvent.click(button)
+
+    expect(button).toHaveAttribute('aria-checked', 'false')
+
+    fireEvent.click(button)
+
+    expect(button).toHaveAttribute('aria-checked', 'true')
 })
