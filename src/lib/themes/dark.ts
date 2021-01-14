@@ -1,4 +1,4 @@
-import defaultTheme from './light'
+import defaultTheme from './default'
 
 const theme: any = {
   ...defaultTheme,
