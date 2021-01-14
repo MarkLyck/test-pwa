@@ -7,6 +7,7 @@ import { ThemeSwitcherProvider } from "react-css-theme-switcher";
 // Utils
 import Compose from 'src/lib/Compose'
 import themes, { antDThemeMap } from 'src/lib/themes'
+import 'src/lib/iconLibrary'
 
 const AllTheProviders = ({ children }: any) => {
   return (
