@@ -32,6 +32,7 @@ const ThemeSwitch = () => {
 
     return (
         <StyledSwitch
+            aria-label="switch theme"
             onChange={onChange}
             themeType={theme.type}
             defaultChecked={theme.type === 'light'}
