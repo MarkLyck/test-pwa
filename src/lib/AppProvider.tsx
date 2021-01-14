@@ -6,11 +6,7 @@ import Compose from './Compose'
 import { themeAtom } from 'src/atoms'
 import "antd/dist/antd.css"
 import 'src/lib/iconLibrary'
-
-export const themeMap = {
-  light: `${process.env.PUBLIC_URL}/antd/light-theme.css`,
-  dark: `${process.env.PUBLIC_URL}/antd/dark-theme.css`,
-};
+import { antDThemeMap } from 'src/lib/themes'
 
 type AppProviderProps = {
   children: React.ReactNode
@@ -20,7 +16,7 @@ const AppProvider = ({ children }: AppProviderProps) => {
   const [theme] = useAtom(themeAtom)
 
   return <Compose components={[
-    [ThemeSwitcherProvider, { themeMap, defaultTheme: theme.type }],
+    [ThemeSwitcherProvider, { themeMap: antDThemeMap, defaultTheme: theme.type }],
     [ThemeProvider, { theme }]
   ]}>{children}</Compose>
 }

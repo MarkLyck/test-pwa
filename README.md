@@ -1,6 +1,5 @@
 [![codecov](https://codecov.io/gh/MarkLyck/test-pwa/branch/main/graph/badge.svg?token=G5RYDGL8TI)](https://codecov.io/gh/MarkLyck/test-pwa)
-[![CodeFactor](https://www.codefactor.io/repository/github/marklyck/test-pwa/badge)](https://www.codefactor.io/repository/github/marklyck/test-pwa)
-
+[![Maintainability](https://api.codeclimate.com/v1/badges/689a3c0ed7e7bdedb26b/maintainability)](https://codeclimate.com/github/MarkLyck/test-pwa/maintainability)
 
 
 # Cloud-one
