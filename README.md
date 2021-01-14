@@ -31,6 +31,8 @@ Built with create-react-app.
 
 # Contributing
 
+use gitmoji for commits.
+
 ...
 
 # Deployment
