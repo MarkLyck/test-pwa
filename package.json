@@ -37,7 +37,7 @@
     "react": "17.0.1",
     "react-css-theme-switcher": "0.2.2",
     "react-dom": "17.0.1",
-    "react-query": "3.5.12",
+    "react-query": "3.5.16",
     "web-vitals": "1.0.1",
     "workbox-background-sync": "6.0.2",
     "workbox-broadcast-update": "6.0.2",
