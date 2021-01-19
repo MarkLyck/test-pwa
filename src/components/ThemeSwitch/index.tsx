@@ -7,8 +7,8 @@ import { Switch } from 'antd'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const SwitchIcon = styled(FontAwesomeIcon)`
-    height: 20px;
-    width: 20px;
+    height: 10px;
+    width: 10px;
 `
 
 const StyledSwitch = styled(Switch, { shouldForwardProp: p => p !== 'themeType' })`
