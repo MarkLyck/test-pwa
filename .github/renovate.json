@@ -3,6 +3,5 @@
     "config:base"
   ],
   "semanticCommits": "disabled",
-  "commitMessagePrefix": ":package: ",
-  "commitMessageAction": ":package: "
+  "commitMessagePrefix": ":package: "
 }
