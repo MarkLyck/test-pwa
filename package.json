@@ -75,7 +75,7 @@
     "bundle-stats": "2.5.0",
     "chromatic": "5.6.0",
     "cypress": "6.3.0",
-    "gitmoji-changelog": "2.2.0",
+    "gitmoji-changelog": "^2.2.0-alpha.134dfb95",
     "gitmoji-cli": "3.2.18",
     "gulp": "4.0.2",
     "gulp-csso": "4.0.1",

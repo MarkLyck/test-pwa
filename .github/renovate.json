@@ -3,5 +3,5 @@
     "config:base"
   ],
   "semanticCommits": "disabled",
-  "commitMessagePrefix": ":package: "
+  "commitMessagePrefix": ":arrow_up: "
 }
