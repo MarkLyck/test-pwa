@@ -6,7 +6,7 @@ interface Props {
   components: Components[]
 }
 
-const Compose: FC<Props> = ({ components, children }) => (
+const ComposeProviders: FC<Props> = ({ components, children }) => (
   <Fragment>
     {components.reverse().reduce((acc, curr) => {
       const [Provider, props] = Array.isArray(curr)
@@ -17,4 +17,4 @@ const Compose: FC<Props> = ({ components, children }) => (
   </Fragment>
 )
 
-export default Compose
+export default ComposeProviders
