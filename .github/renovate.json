@@ -2,5 +2,7 @@
   "extends": [
     "config:base"
   ],
-  "commitMessagePrefix": ":package: "
+  "semanticCommits": "disabled",
+  "commitMessagePrefix": ":package: ",
+  "commitMessageAction": ":package: "
 }
