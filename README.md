@@ -1,4 +1,7 @@
 [![codecov](https://codecov.io/gh/MarkLyck/test-pwa/branch/main/graph/badge.svg?token=G5RYDGL8TI)](https://codecov.io/gh/MarkLyck/test-pwa)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Maintainability](https://api.codeclimate.com/v1/badges/689a3c0ed7e7bdedb26b/maintainability)](https://codeclimate.com/github/MarkLyck/test-pwa/maintainability)
 [![Known Vulnerabilities](https://snyk.io/test/github/MarkLyck/test-pwa/badge.svg)](https://snyk.io/test/github/MarkLyck/test-pwa)
 
@@ -39,3 +42,23 @@ use gitmoji for commits.
 
 ....
 
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="http://markdid.it"><img src="https://avatars.githubusercontent.com/u/6841110?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mark Lyck</b></sub></a><br /><a href="https://github.com/MarkLyck/test-pwa/commits?author=MarkLyck" title="Code">💻</a> <a href="https://github.com/MarkLyck/test-pwa/commits?author=MarkLyck" title="Documentation">📖</a> <a href="https://github.com/MarkLyck/test-pwa/commits?author=MarkLyck" title="Tests">⚠️</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
