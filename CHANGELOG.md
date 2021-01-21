@@ -39,6 +39,7 @@
 
 ### Fixed
 
+- 💚 add fetch-depth 0 [[943f482](https://github.com/MarkLyck/test-pwa/commit/943f482892f2e5e51677741544d604ba1e98bcc9)]
 - 💚 fix changelog generation [[3a0154a](https://github.com/MarkLyck/test-pwa/commit/3a0154a1ad8760fed0f4dfefb2ce6005f9337aea)]
 - 💚 fix Chromatic CI [[9408330](https://github.com/MarkLyck/test-pwa/commit/9408330485899bcd55be349cfa4016e69486addf)]
 - ✏️ Compose -&gt; ComposeProviders [[0c9fa5a](https://github.com/MarkLyck/test-pwa/commit/0c9fa5a218474aba1bb3689b6c8d0308fe5501bd)]
