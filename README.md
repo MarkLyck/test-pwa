@@ -1,9 +1,12 @@
 [![codecov](https://codecov.io/gh/MarkLyck/test-pwa/branch/main/graph/badge.svg?token=G5RYDGL8TI)](https://codecov.io/gh/MarkLyck/test-pwa)
+[![Maintainability](https://api.codeclimate.com/v1/badges/689a3c0ed7e7bdedb26b/maintainability)](https://codeclimate.com/github/MarkLyck/test-pwa/maintainability)
+[![Known Vulnerabilities](https://snyk.io/test/github/MarkLyck/test-pwa/badge.svg)](https://snyk.io/test/github/MarkLyck/test-pwa)
+[![Cypress](https://img.shields.io/badge/cypress-dashboard-brightgreen.svg)](https://dashboard.cypress.io/projects/548hkt/analytics/runs-over-time)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-[![Maintainability](https://api.codeclimate.com/v1/badges/689a3c0ed7e7bdedb26b/maintainability)](https://codeclimate.com/github/MarkLyck/test-pwa/maintainability)
-[![Known Vulnerabilities](https://snyk.io/test/github/MarkLyck/test-pwa/badge.svg)](https://snyk.io/test/github/MarkLyck/test-pwa)
 
 
 
