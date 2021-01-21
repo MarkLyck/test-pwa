@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "MarkLyck",
+      "name": "Mark Lyck",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6841110?v=4",
+      "profile": "http://markdid.it",
+      "contributions": [
+        "code",
+        "doc",
+        "test"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "test-pwa",
+  "projectOwner": "MarkLyck",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
