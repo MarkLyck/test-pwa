@@ -1,3 +1,5 @@
+![Integration tests](https://github.com/MarkLyck/test-pwa/workflows/Integration%20tests/badge.svg)
+![Unit test](https://github.com/MarkLyck/test-pwa/workflows/Unit%20test/badge.svg)
 [![codecov](https://codecov.io/gh/MarkLyck/test-pwa/branch/main/graph/badge.svg?token=G5RYDGL8TI)](https://codecov.io/gh/MarkLyck/test-pwa)
 [![Maintainability](https://api.codeclimate.com/v1/badges/689a3c0ed7e7bdedb26b/maintainability)](https://codeclimate.com/github/MarkLyck/test-pwa/maintainability)
 [![Known Vulnerabilities](https://snyk.io/test/github/MarkLyck/test-pwa/badge.svg)](https://snyk.io/test/github/MarkLyck/test-pwa)
