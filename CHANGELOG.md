@@ -3,8 +3,21 @@
 <a name="next"></a>
 ## next
 
+### Fixed
+
+- 💚 custom version bump tool [[3dfccfb](https://github.com/MarkLyck/test-pwa/commit/3dfccfba560695deb4cfd48b5c6998389fce10aa)]
+
+### Miscellaneous
+
+-  Merge branch &#x27;changelog&#x27; of github.com:MarkLyck/test-pwa into changelog [[3f1b9a5](https://github.com/MarkLyck/test-pwa/commit/3f1b9a508e7b4d02d2642042dcc7acc8734c9d0e)]
+
+
+<a name="0.1.6"></a>
+## 0.1.6 (2021-01-22)
+
 ### Added
 
+- 👷‍♂️ automate version bumps [[c350fb3](https://github.com/MarkLyck/test-pwa/commit/c350fb3a0ed372a5dbf568c5c3f0ceac4d541753)]
 - 👷‍♂️ test w/ existing CHANGELOG [[8ceec4f](https://github.com/MarkLyck/test-pwa/commit/8ceec4fa7a8517b54b54d5c8dbc40f9a1123e0fd)]
 - 👷‍♂️ add changelog-generation [[4da1521](https://github.com/MarkLyck/test-pwa/commit/4da1521dc16b0a97f45d73ba08fcb66b0a91af99)]
 - ✅ fix test-utils [[1431f15](https://github.com/MarkLyck/test-pwa/commit/1431f15f5d86e5df350aa5a0f4f8220e2f700474)]
@@ -39,6 +52,8 @@
 
 ### Fixed
 
+- 💚 try automated-version-bump [[6d75be1](https://github.com/MarkLyck/test-pwa/commit/6d75be1e71a72c5651522e45cc1228d469c95e7b)]
+- 💚 try version-bump [[2a1b47d](https://github.com/MarkLyck/test-pwa/commit/2a1b47d9885aa950deeacba27242439e56fcdfb2)]
 - 💚 add fetch-depth 0 [[943f482](https://github.com/MarkLyck/test-pwa/commit/943f482892f2e5e51677741544d604ba1e98bcc9)]
 - 💚 fix changelog generation [[3a0154a](https://github.com/MarkLyck/test-pwa/commit/3a0154a1ad8760fed0f4dfefb2ce6005f9337aea)]
 - 💚 fix Chromatic CI [[9408330](https://github.com/MarkLyck/test-pwa/commit/9408330485899bcd55be349cfa4016e69486addf)]
@@ -57,6 +72,9 @@
 
 ### Miscellaneous
 
+-  ci: version bump to v0.1.6 [[dadf71d](https://github.com/MarkLyck/test-pwa/commit/dadf71d8abc3a04f1275123cae1c143ae7011281)]
+- 📝 contribution docs [[2f4997f](https://github.com/MarkLyck/test-pwa/commit/2f4997f34e25138fb48713f2f33d86ff9b67e3f9)]
+-  v0.1.5 [[4fecdc9](https://github.com/MarkLyck/test-pwa/commit/4fecdc9a10f098228442b03f05ed23d5e32bfde4)]
 - 🔀 git pull [[fea22db](https://github.com/MarkLyck/test-pwa/commit/fea22dbac7481e5d3f239feb9aed30cffd7f6eda)]
 - 📦 Update dependency @testing-library/user-event to v12.6.2 [[405ec01](https://github.com/MarkLyck/test-pwa/commit/405ec01b5cdde9bfe562bcbe70d6b503ca6b143b)]
 - 📝 add badges [[204ac90](https://github.com/MarkLyck/test-pwa/commit/204ac904faa99f06e4c9310574b5a4767386b621)]
