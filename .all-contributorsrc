@@ -13,7 +13,15 @@
       "contributions": [
         "code",
         "doc",
-        "test"
+        "test",
+        "design",
+        "infra",
+        "maintenance",
+        "ideas",
+        "mentoring",
+        "translation",
+        "security",
+        "review"
       ]
     }
   ],

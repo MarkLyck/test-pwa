@@ -85,7 +85,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="http://markdid.it"><img src="https://avatars.githubusercontent.com/u/6841110?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mark Lyck</b></sub></a><br /><a href="https://github.com/MarkLyck/test-pwa/commits?author=MarkLyck" title="Code">💻</a> <a href="https://github.com/MarkLyck/test-pwa/commits?author=MarkLyck" title="Documentation">📖</a> <a href="https://github.com/MarkLyck/test-pwa/commits?author=MarkLyck" title="Tests">⚠️</a></td>
+    <td align="center"><a href="http://markdid.it"><img src="https://avatars.githubusercontent.com/u/6841110?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mark Lyck</b></sub></a><br /><a href="https://github.com/MarkLyck/test-pwa/commits?author=MarkLyck" title="Code">💻</a> <a href="https://github.com/MarkLyck/test-pwa/commits?author=MarkLyck" title="Documentation">📖</a> <a href="https://github.com/MarkLyck/test-pwa/commits?author=MarkLyck" title="Tests">⚠️</a> <a href="#design-MarkLyck" title="Design">🎨</a> <a href="#infra-MarkLyck" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="#maintenance-MarkLyck" title="Maintenance">🚧</a> <a href="#ideas-MarkLyck" title="Ideas, Planning, & Feedback">🤔</a> <a href="#mentoring-MarkLyck" title="Mentoring">🧑‍🏫</a> <a href="#translation-MarkLyck" title="Translation">🌍</a> <a href="#security-MarkLyck" title="Security">🛡️</a> <a href="https://github.com/MarkLyck/test-pwa/pulls?q=is%3Apr+reviewed-by%3AMarkLyck" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
