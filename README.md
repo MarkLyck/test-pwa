@@ -26,7 +26,7 @@ Built with create-react-app.
 | --- | ----------- |
 | Unit test | Github Action |
 | bundle-size | Github Action |
-| Integration test | https://www.cypress.io/ |
+| Integration test | [![Cypress](https://img.shields.io/badge/cypress-dashboard-brightgreen.svg)](https://dashboard.cypress.io/projects/548hkt/analytics/runs-over-time) |
 | code coverage | [![codecov](https://codecov.io/gh/MarkLyck/test-pwa/branch/main/graph/badge.svg?token=G5RYDGL8TI)](https://codecov.io/gh/MarkLyck/test-pwa) |
 | code grade | https://codeclimate.com/ |
 | preview deployments | https://vercel.com |
@@ -37,9 +37,39 @@ Built with create-react-app.
 
 # Contributing
 
-use gitmoji for commits.
+## Commits
+Always use gitmoji for commits. (this is used to keep commits clean and auto-generate our CHANGELOG)
 
-...
+To commit (Git Commit):
+```
+  yarn gc
+```
+
+To commit all files (Git Commit All):
+```
+  yarn gca
+```
+
+To commit all files & push (Git Commit All Push):
+```
+  yarn gcap
+```
+
+Alternatively if  you want to use your regular git commands, you can run:
+```
+yarn gitmoji --init
+```
+this will disable the yarn commands and add gitmoji to your regular commit commands.
+
+## releases
+We use automated CI tools to handle new releases & changelog generation.
+
+Based on the commit messages, increment the version from the latest release.
+- If the string "BREAKING CHANGE", "major" or the Attention pattern `refactor!: drop support for Node 6` is found anywhere in any of the commit messages or descriptions the major version will be incremented.
+- If a commit message includes "minor" then the minor version will be increased.
+- If a commit message contains the word "pre-alpha" or "pre-beta" or "pre-rc" then the pre-release version will be increased 
+(for example specifying pre-alpha: 1.6.0-alpha.1 -> 1.6.0-alpha.2 or, specifying pre-beta: 1.6.0-alpha.1 -> 1.6.0-beta.0)
+- All other changes will increment the patch version.
 
 # Deployment
 

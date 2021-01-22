@@ -3,8 +3,30 @@
 <a name="next"></a>
 ## next
 
+### Fixed
+
+- 💚 custom version bump tool [[3dfccfb](https://github.com/MarkLyck/test-pwa/commit/3dfccfba560695deb4cfd48b5c6998389fce10aa)]
+
+### Miscellaneous
+
+-  Merge branch &#x27;changelog&#x27; of github.com:MarkLyck/test-pwa into changelog [[3f1b9a5](https://github.com/MarkLyck/test-pwa/commit/3f1b9a508e7b4d02d2642042dcc7acc8734c9d0e)]
+
+
+<a name="0.1.6"></a>
+## 0.1.6 (2021-01-22)
+
 ### Added
 
+- 👷‍♂️ automate version bumps [[c350fb3](https://github.com/MarkLyck/test-pwa/commit/c350fb3a0ed372a5dbf568c5c3f0ceac4d541753)]
+- 👷‍♂️ test w/ existing CHANGELOG [[8ceec4f](https://github.com/MarkLyck/test-pwa/commit/8ceec4fa7a8517b54b54d5c8dbc40f9a1123e0fd)]
+- 👷‍♂️ add changelog-generation [[4da1521](https://github.com/MarkLyck/test-pwa/commit/4da1521dc16b0a97f45d73ba08fcb66b0a91af99)]
+- ✅ fix test-utils [[1431f15](https://github.com/MarkLyck/test-pwa/commit/1431f15f5d86e5df350aa5a0f4f8220e2f700474)]
+- 👷‍♂️ add chromatic CI [[74df208](https://github.com/MarkLyck/test-pwa/commit/74df20889c963ab9c373b199cf6ad8e496d900ac)]
+- 👷‍♂️ test lighthouse-ci [[69a9c38](https://github.com/MarkLyck/test-pwa/commit/69a9c38ea63cb114ced46a41734e85f86af7c798)]
+- 👷‍♂️ test vercel capture [[c77a33c](https://github.com/MarkLyck/test-pwa/commit/c77a33c17263cb5482fec9adb6dff4a440ade926)]
+- 👷‍♂️ test vercel capture [[2f42cc8](https://github.com/MarkLyck/test-pwa/commit/2f42cc8fe74c7db1c73eef30dc1f01cac171f68f)]
+- 👷‍♂️ add lighthouse CI system [[5811fea](https://github.com/MarkLyck/test-pwa/commit/5811fea1137918449675e724038e4200d44d7b43)]
+- ✅ 100% test coverage [[714c36e](https://github.com/MarkLyck/test-pwa/commit/714c36e009e102cfc550437e241d52a414644a62)]
 - 👷‍♂️ fix semver [[faa75ff](https://github.com/MarkLyck/test-pwa/commit/faa75ffe338567aef1f6e501aabdf90dd467cda8)]
 - 👷‍♂️ test semver [[3944a1e](https://github.com/MarkLyck/test-pwa/commit/3944a1e05d0451526c6d937ffd6970d1d9f1e4c0)]
 - 👷‍♂️ version bump [[0e76224](https://github.com/MarkLyck/test-pwa/commit/0e76224f2b16d783ec4f20b3bb1b3106c5c2700d)]
@@ -13,12 +35,30 @@
 - 👷‍♂️ cypress-ci [[ee37043](https://github.com/MarkLyck/test-pwa/commit/ee37043e0f6c1941d326c6cc4c8438bc510c0b8b)]
 - 👷‍♂️ add cypress ci [[2ab4ab2](https://github.com/MarkLyck/test-pwa/commit/2ab4ab2831ec41267b0041be996f5c90766cd06b)]
 
+### Changed
+
+- 🔧 update renovate config [[801d583](https://github.com/MarkLyck/test-pwa/commit/801d583d5d2817dac77dc317ede2fcb3363d0207)]
+- 🔧 update renovate commit message title [[66b9a46](https://github.com/MarkLyck/test-pwa/commit/66b9a460b56d13220d9a6b7a5fcc2cf201f2461f)]
+- 🔧 update renovate commit message [[24c24ac](https://github.com/MarkLyck/test-pwa/commit/24c24ac2de2c80c5e1a65d0f2b384e2a5ef42726)]
+- 💄 icon size [[348f9fe](https://github.com/MarkLyck/test-pwa/commit/348f9feacc080a9ab02d77d6f879fd7161a4edae)]
+- ♿ add aria-label to theme-switch [[5be882d](https://github.com/MarkLyck/test-pwa/commit/5be882dc394312fa6d3ff0b064fa102e13540ea2)]
+- ⚡ preload antd css [[c9a5094](https://github.com/MarkLyck/test-pwa/commit/c9a50945cd9ede3942360ba9ab892af6cc18ffab)]
+- 🎨 fix import [[eec1dc6](https://github.com/MarkLyck/test-pwa/commit/eec1dc6aa8c153f1d2e36a68a1a9717bf0a47f31)]
+- 🎨 fix code-climate techdebt [[1099c1e](https://github.com/MarkLyck/test-pwa/commit/1099c1e13fde777846d8ed0a98d166290c13d39a)]
+
 ### Removed
 
 - 🔥 remove temp Button [[dd9d733](https://github.com/MarkLyck/test-pwa/commit/dd9d73316be0c74e028dde29677ce9a081a868e2)]
 
 ### Fixed
 
+- 💚 try automated-version-bump [[6d75be1](https://github.com/MarkLyck/test-pwa/commit/6d75be1e71a72c5651522e45cc1228d469c95e7b)]
+- 💚 try version-bump [[2a1b47d](https://github.com/MarkLyck/test-pwa/commit/2a1b47d9885aa950deeacba27242439e56fcdfb2)]
+- 💚 add fetch-depth 0 [[943f482](https://github.com/MarkLyck/test-pwa/commit/943f482892f2e5e51677741544d604ba1e98bcc9)]
+- 💚 fix changelog generation [[3a0154a](https://github.com/MarkLyck/test-pwa/commit/3a0154a1ad8760fed0f4dfefb2ce6005f9337aea)]
+- 💚 fix Chromatic CI [[9408330](https://github.com/MarkLyck/test-pwa/commit/9408330485899bcd55be349cfa4016e69486addf)]
+- ✏️ Compose -&gt; ComposeProviders [[0c9fa5a](https://github.com/MarkLyck/test-pwa/commit/0c9fa5a218474aba1bb3689b6c8d0308fe5501bd)]
+- 💚 (test): testing gitmoji with emojis [[cdb7a18](https://github.com/MarkLyck/test-pwa/commit/cdb7a185e08e236ed2be1f9dafec9074de15a6c7)]
 - 🐛 test semver 🐛 [[6694bc6](https://github.com/MarkLyck/test-pwa/commit/6694bc6115720e3e38825abc37cc1874546507ac)]
 - ✏️ master &gt; main [[49c0b4a](https://github.com/MarkLyck/test-pwa/commit/49c0b4a9217fe2e55c3ad077a9b4cfe91640bdd5)]
 - 💚 unit test fix [[6353b90](https://github.com/MarkLyck/test-pwa/commit/6353b90226fad89ac0805de3c46575ddaa206aaa)]
@@ -32,6 +72,57 @@
 
 ### Miscellaneous
 
+-  ci: version bump to v0.1.6 [[dadf71d](https://github.com/MarkLyck/test-pwa/commit/dadf71d8abc3a04f1275123cae1c143ae7011281)]
+- 📝 contribution docs [[2f4997f](https://github.com/MarkLyck/test-pwa/commit/2f4997f34e25138fb48713f2f33d86ff9b67e3f9)]
+-  v0.1.5 [[4fecdc9](https://github.com/MarkLyck/test-pwa/commit/4fecdc9a10f098228442b03f05ed23d5e32bfde4)]
+- 🔀 git pull [[fea22db](https://github.com/MarkLyck/test-pwa/commit/fea22dbac7481e5d3f239feb9aed30cffd7f6eda)]
+- 📦 Update dependency @testing-library/user-event to v12.6.2 [[405ec01](https://github.com/MarkLyck/test-pwa/commit/405ec01b5cdde9bfe562bcbe70d6b503ca6b143b)]
+- 📝 add badges [[204ac90](https://github.com/MarkLyck/test-pwa/commit/204ac904faa99f06e4c9310574b5a4767386b621)]
+-  Merge pull request [#67](https://github.com/MarkLyck/test-pwa/issues/67) from MarkLyck/fix-chromatic [[8697dc4](https://github.com/MarkLyck/test-pwa/commit/8697dc41ec935bf957deef1475dfb678406f7df1)]
+-  chore(deps): update dependency @testing-library/user-event to v12.6.1 [[7b582d9](https://github.com/MarkLyck/test-pwa/commit/7b582d9f874b9d5d84c6ec9a9ac54e6ad5f30fd4)]
+-  Merge pull request [#61](https://github.com/MarkLyck/test-pwa/issues/61) from MarkLyck/renovate/testing-library-user-event-12.x [[4a45b93](https://github.com/MarkLyck/test-pwa/commit/4a45b9376163b43f87da3220f029002f74b6bce6)]
+-  docs: create .all-contributorsrc [skip ci] [[e2a570f](https://github.com/MarkLyck/test-pwa/commit/e2a570f77d6e0c8559f7b4cbce48f52374614ac2)]
+-  docs: update README.md [skip ci] [[9de5808](https://github.com/MarkLyck/test-pwa/commit/9de5808d3e5bdb0b2aa0bb09321d20c66a9f6ae1)]
+-  Merge pull request [#44](https://github.com/MarkLyck/test-pwa/issues/44) from MarkLyck/renovate/web-vitals-1.x [[5528bc0](https://github.com/MarkLyck/test-pwa/commit/5528bc045159009bf508db5b527a9804ee21cdf1)]
+-  Merge pull request [#60](https://github.com/MarkLyck/test-pwa/issues/60) from MarkLyck/update-deps [[7f6fb53](https://github.com/MarkLyck/test-pwa/commit/7f6fb530737185d485b19fe01055d63b0d3a70c5)]
+-  Merge pull request [#59](https://github.com/MarkLyck/test-pwa/issues/59) from MarkLyck/update-deps [[35b2ac6](https://github.com/MarkLyck/test-pwa/commit/35b2ac6a3d9320a2208269ae08210bdef9d99054)]
+- 📦 remove unused packages [[6b3d8ae](https://github.com/MarkLyck/test-pwa/commit/6b3d8ae4569e327a8dc240f7aa434d92d4379dc9)]
+-  Merge pull request [#58](https://github.com/MarkLyck/test-pwa/issues/58) from MarkLyck/renovate-commit [[23707c8](https://github.com/MarkLyck/test-pwa/commit/23707c84f6710047385f318c8944c1f09113e3bd)]
+-  Merge pull request [#54](https://github.com/MarkLyck/test-pwa/issues/54) from MarkLyck/renovate/testing-library-user-event-12.x [[d7bc1f0](https://github.com/MarkLyck/test-pwa/commit/d7bc1f0b6b0c6f918099ec49e20673da5c528d61)]
+-  Merge pull request [#45](https://github.com/MarkLyck/test-pwa/issues/45) from MarkLyck/chromatic [[d354005](https://github.com/MarkLyck/test-pwa/commit/d354005ba8ac005861426436b2bea1fd587c634a)]
+- 📦 update lock file [[56ee208](https://github.com/MarkLyck/test-pwa/commit/56ee2084b49b4f5c8d7c7a6f87e3d499036c954e)]
+- 🔀 merge main [[9981084](https://github.com/MarkLyck/test-pwa/commit/998108462f0dc70cb2c53e12c28d49e0dc835b27)]
+-  add Composers [[d824a51](https://github.com/MarkLyck/test-pwa/commit/d824a51b1789500bde445229e221493dd1d330e1)]
+-  Merge pull request [#53](https://github.com/MarkLyck/test-pwa/issues/53) from MarkLyck/all-contributors/add-MarkLyck [[0843a01](https://github.com/MarkLyck/test-pwa/commit/0843a01797c08cdf9f97fbd5e4fc7fdadcb9408f)]
+-  Merge pull request [#51](https://github.com/MarkLyck/test-pwa/issues/51) from MarkLyck/renovate/cypress-6.x [[736da2d](https://github.com/MarkLyck/test-pwa/commit/736da2d5090741e6aceab37929dc8522ff822547)]
+-  Update dependency cypress to v6.3.0 [[b5ebf4f](https://github.com/MarkLyck/test-pwa/commit/b5ebf4f5a9f60c0ddd68d952843af7f34db20856)]
+-  Update dependency @types/node to v14.14.22 [[4a8f59d](https://github.com/MarkLyck/test-pwa/commit/4a8f59d43c5f7377208ad2ec0a2841506911544e)]
+-  update [[ddc85c4](https://github.com/MarkLyck/test-pwa/commit/ddc85c414d6a90ee44b2ac49a7653474e57954d4)]
+-  Merge pull request [#50](https://github.com/MarkLyck/test-pwa/issues/50) from MarkLyck/renovate/node-14.x [[4b901ba](https://github.com/MarkLyck/test-pwa/commit/4b901ba763a884e85e3f550941d6f48c7a316607)]
+-  remove lighthouse workflow [[47ca2fa](https://github.com/MarkLyck/test-pwa/commit/47ca2fa63dbbe177867d14780a06134ff02fc24f)]
+-  Merge pull request [#48](https://github.com/MarkLyck/test-pwa/issues/48) from MarkLyck/renovate/jotai-0.x [[e8cdaf1](https://github.com/MarkLyck/test-pwa/commit/e8cdaf1f80b1e502e4ba32e5d000e7d38bc9d25c)]
+-  Update dependency web-vitals to v1.1.0 [[9ddb09d](https://github.com/MarkLyck/test-pwa/commit/9ddb09d00a5715fcb7bc1387c76c86f3d5d7d398)]
+-  Update dependency jotai to v0.12.5 [[948629b](https://github.com/MarkLyck/test-pwa/commit/948629b85741fd5283ee41c9dc3e5b787c4a5bfb)]
+-  Merge pull request [#46](https://github.com/MarkLyck/test-pwa/issues/46) from MarkLyck/renovate/node-14.x [[7e2839d](https://github.com/MarkLyck/test-pwa/commit/7e2839d63d037e5ff6fbd690152b191ff79ebeb0)]
+-  Merge pull request [#47](https://github.com/MarkLyck/test-pwa/issues/47) from MarkLyck/renovate/react-query-3.x [[93531a6](https://github.com/MarkLyck/test-pwa/commit/93531a63c6d98ff20c9a59d7df03340ac683dff8)]
+-  Merge pull request [#49](https://github.com/MarkLyck/test-pwa/issues/49) from MarkLyck/renovate/antd-4.x [[8272f2c](https://github.com/MarkLyck/test-pwa/commit/8272f2c97117fed9862733c06a5cd31a6fd00825)]
+-  Update dependency antd to v4.10.3 [[0839856](https://github.com/MarkLyck/test-pwa/commit/083985617a4d1221fa9aefa937f94b4d2208a109)]
+-  Update dependency react-query to v3.5.16 [[d0dd001](https://github.com/MarkLyck/test-pwa/commit/d0dd001c65084513b832c42e023869d5cb3d653b)]
+-  Update dependency @types/node to v14.14.21 [[8de012e](https://github.com/MarkLyck/test-pwa/commit/8de012e7b9754c850c0f90f95d1d611e2d482122)]
+-  Update marocchino/sticky-pull-request-comment action to v2 [[3db1eb9](https://github.com/MarkLyck/test-pwa/commit/3db1eb9919c329edd8f95b13a64dd44d0cf4735d)]
+-  Merge pull request [#43](https://github.com/MarkLyck/test-pwa/issues/43) from MarkLyck/renovate/marocchino-sticky-pull-request-comment-2.x [[265f41f](https://github.com/MarkLyck/test-pwa/commit/265f41fdecf88c46fba4eaf745c967132c3bccd5)]
+-  Merge pull request [#42](https://github.com/MarkLyck/test-pwa/issues/42) from MarkLyck/lighthouse-ci [[81f2812](https://github.com/MarkLyck/test-pwa/commit/81f2812d5245ac434c004763599d8232b700ba4b)]
+-  Update Font Awesome [[ed232e5](https://github.com/MarkLyck/test-pwa/commit/ed232e57c61e980752a17159d9ce75652b66a18e)]
+- 📝 test lighthouse-ci [[0619463](https://github.com/MarkLyck/test-pwa/commit/061946363b2066a1ca47712cd995af97b2dd1cf2)]
+-  Merge pull request [#41](https://github.com/MarkLyck/test-pwa/issues/41) from MarkLyck/lighthouse-ci [[d275e36](https://github.com/MarkLyck/test-pwa/commit/d275e36a58e8c712acf344fd76569165301fe406)]
+-  Merge pull request [#40](https://github.com/MarkLyck/test-pwa/issues/40) from MarkLyck/lighthouse-ci [[3f31143](https://github.com/MarkLyck/test-pwa/commit/3f31143272a90b39affb99fae62afccecbe0bea0)]
+-  Merge pull request [#39](https://github.com/MarkLyck/test-pwa/issues/39) from MarkLyck/test-coverage [[766ca56](https://github.com/MarkLyck/test-pwa/commit/766ca56b0a829cf4151d80ba6d68515b1423cc3c)]
+-  Merge pull request [#38](https://github.com/MarkLyck/test-pwa/issues/38) from MarkLyck/code-climate [[78c462d](https://github.com/MarkLyck/test-pwa/commit/78c462d544e73be4a0f903cc0d681da32cf5ee0e)]
+-  Merge pull request [#37](https://github.com/MarkLyck/test-pwa/issues/37) from MarkLyck/renovate/font-awesome [[d615cf9](https://github.com/MarkLyck/test-pwa/commit/d615cf9fda64ddb210c44e28f6abe07005cb005d)]
+-  Pin dependency gitmoji-changelog to 2.2.0 [[c3170cc](https://github.com/MarkLyck/test-pwa/commit/c3170ccc71111a60d94947b76afbad78fd4a273e)]
+-  Merge pull request [#36](https://github.com/MarkLyck/test-pwa/issues/36) from MarkLyck/renovate/pin-dependencies [[97d3c21](https://github.com/MarkLyck/test-pwa/commit/97d3c2170d7b37729338bc8385cac03b8a2cf7a9)]
+-  Merge pull request [#34](https://github.com/MarkLyck/test-pwa/issues/34) from MarkLyck/bump-version [[39889bf](https://github.com/MarkLyck/test-pwa/commit/39889bfdd903af98b1943466a43b0aeab7f66a8b)]
+- 📝 README documentation, and changelog test [[1209e9f](https://github.com/MarkLyck/test-pwa/commit/1209e9fef6d2f0307b91a2285ba929fe8b9c3bc1)]
 -  Pin dependency @emotion/is-prop-valid to 1.0.0 [[0034254](https://github.com/MarkLyck/test-pwa/commit/0034254399ac2c77e64ca616f8ba711fa090e9f6)]
 -  Pin dependencies [[4ec35c2](https://github.com/MarkLyck/test-pwa/commit/4ec35c2bffeee16d009b4ebd0abfb366ac534a3b)]
 -  Merge pull request [#33](https://github.com/MarkLyck/test-pwa/issues/33) from MarkLyck/bump-version [[674105f](https://github.com/MarkLyck/test-pwa/commit/674105ffcdce86c9a62141b06b9df01044bdf49f)]
