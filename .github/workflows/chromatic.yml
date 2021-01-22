@@ -3,15 +3,12 @@
 # Workflow name
 name: 'Chromatic'
 
-# Event for the workflow
 on: push
 
-# List of jobs
 jobs:
   chromatic-deployment:
-    # Operating System
     runs-on: ubuntu-latest
-    # Job steps
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
