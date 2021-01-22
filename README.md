@@ -8,8 +8,6 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-
-
 # Cloud-one
 
 Built with create-react-app.
@@ -55,7 +53,7 @@ To commit all files & push (Git Commit All Push):
   yarn gcap
 ```
 
-Alternatively if  you want to use your regular git commands, you can run:
+Alternatively if  you want to use your regular git commands w/ a git commit hook, you can run:
 ```
 yarn gitmoji --init
 ```
