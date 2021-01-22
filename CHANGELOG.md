@@ -1,12 +1,81 @@
 # Changelog
 
-<a name="next"></a>
-## next
+<a name="0.1.22"></a>
+## 0.1.22 (2021-01-22)
+
+### Fixed
+
+- 💚 changelog not updating everything [[9bbc230](https://github.com/MarkLyck/test-pwa/commit/9bbc230bb0b0d272fc3802a532e5c1058ce93e24)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.22 [[1519152](https://github.com/MarkLyck/test-pwa/commit/15191522686581cda7d23c4b1b30ae2b09eedca0)]
+- 📝 generated changelog [[e868202](https://github.com/MarkLyck/test-pwa/commit/e868202e3f41152f7b169b4a04dee3af722df170)]
+-  Merge pull request [#91](https://github.com/MarkLyck/test-pwa/issues/91) from MarkLyck/fix-changelog [[2585fe2](https://github.com/MarkLyck/test-pwa/commit/2585fe2a6b57508cc34a6e381d927d0e525f4c7c)]
+
+
+<a name="0.1.21"></a>
+## 0.1.21 (2021-01-22)
+
+### Changed
+
+- ⬆️ Update storybook monorepo to v6.1.15 [[3207930](https://github.com/MarkLyck/test-pwa/commit/3207930c2f0f492ebaa1ecfd61309cfbaf984771)]
 
 ### Miscellaneous
 
 - 📝 version bump to v0.1.21 [[758899e](https://github.com/MarkLyck/test-pwa/commit/758899eb60e61be0f3dfcb478ac81a74828e03b3)]
+- 📝 generated changelog [[dd78639](https://github.com/MarkLyck/test-pwa/commit/dd78639deadb5b3d91260d1443bb6673bde37331)]
 -  Merge pull request [#86](https://github.com/MarkLyck/test-pwa/issues/86) from MarkLyck/renovate/storybook-monorepo [[a0b504e](https://github.com/MarkLyck/test-pwa/commit/a0b504effefb86a5806aa8a0b09a598f3c8ab0e1)]
+
+
+<a name="0.1.20"></a>
+## 0.1.20 (2021-01-22)
+
+### Changed
+
+- ⬆️ update gitmoji-changelog-action [[91f6e42](https://github.com/MarkLyck/test-pwa/commit/91f6e4257482749fc191d8ae5cf80d0b9453ee3c)]
+
+### Fixed
+
+- 💚 manually set version [[dd3544c](https://github.com/MarkLyck/test-pwa/commit/dd3544c5023ed4a5f4d56ee9f9362052489bfd5e)]
+- 💚 update version [[3e303fc](https://github.com/MarkLyck/test-pwa/commit/3e303fca6e6bbe65ef6ef52a2b995b02004c7019)]
+- 💚 test custom changelog action [[6a609ff](https://github.com/MarkLyck/test-pwa/commit/6a609ff6ea2633bd9abc115cecfe60d0c37478a3)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.20 [[bcef1f6](https://github.com/MarkLyck/test-pwa/commit/bcef1f64bdcb10db885a1442616b3e023cae940d)]
+-  Merge pull request [#90](https://github.com/MarkLyck/test-pwa/issues/90) from MarkLyck/fix-changelog [[a0763fc](https://github.com/MarkLyck/test-pwa/commit/a0763fc07b98907f1e171ab4060d2130eaeb0fe3)]
+-  Merge pull request [#89](https://github.com/MarkLyck/test-pwa/issues/89) from MarkLyck/fix-changelog [[4027724](https://github.com/MarkLyck/test-pwa/commit/40277243d50b8ce0d323dc144ad080ec9bc85a88)]
+-  Merge pull request [#88](https://github.com/MarkLyck/test-pwa/issues/88) from MarkLyck/fix-changelog [[ea74c79](https://github.com/MarkLyck/test-pwa/commit/ea74c79f417dadfdb8b84cd2973c34bd31a16972)]
+-  Merge pull request [#87](https://github.com/MarkLyck/test-pwa/issues/87) from MarkLyck/fix-changelog [[4f607b2](https://github.com/MarkLyck/test-pwa/commit/4f607b2ec55c76ce63137bcb8683652fa2a0e785)]
+
+
+<a name="0.1.19"></a>
+## 0.1.19 (2021-01-22)
+
+### Fixed
+
+- 💚 changelog commit Author [[b2d2061](https://github.com/MarkLyck/test-pwa/commit/b2d2061ee042a4abe80198d9de32f3864d61f42f)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.19 [[70133d2](https://github.com/MarkLyck/test-pwa/commit/70133d2d4ae3fedd959b5335de62d896c1bdc9b4)]
+-  Merge pull request [#85](https://github.com/MarkLyck/test-pwa/issues/85) from MarkLyck/fix-changelog [[4dd4406](https://github.com/MarkLyck/test-pwa/commit/4dd440627b87426c087958c1d00d16de6b7d269c)]
+
+
+<a name="0.1.18"></a>
+## 0.1.18 (2021-01-22)
+
+### Fixed
+
+- 💚 run changelog in bump-version [[adccf2b](https://github.com/MarkLyck/test-pwa/commit/adccf2ba08944a05000014363a15e88f8ab79db1)]
+- 💚 fixx changelog [[5ecf4e7](https://github.com/MarkLyck/test-pwa/commit/5ecf4e79d71133a0cb2c4c388da6fe03fdfae94b)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.18 [[1d40574](https://github.com/MarkLyck/test-pwa/commit/1d40574a1e8c63855ea69616650126102d346f1e)]
+-  Merge pull request [#84](https://github.com/MarkLyck/test-pwa/issues/84) from MarkLyck/fix-changelog [[003af5b](https://github.com/MarkLyck/test-pwa/commit/003af5badeb661d95f064ce91588de078f6e2e60)]
+-  Merge branch &#x27;fix-changelog&#x27; of github.com:MarkLyck/test-pwa into fix-changelog [[a37002d](https://github.com/MarkLyck/test-pwa/commit/a37002dee0c3e7fe69a3b2a2b2b5959a290b1a44)]
 
 
 <a name="0.1.17"></a>
