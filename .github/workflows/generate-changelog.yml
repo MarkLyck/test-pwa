@@ -1,9 +1,9 @@
 name: Generate changelog
 
 on:  
-  push:
-    tags:
-      - '**'
+  release:
+    types: # This configuration does not affect the page_build event above
+      - created
 
 jobs:
   generate-changelog:
@@ -13,8 +13,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2
         with:
-          ref: ${{ github.ref }}
           fetch-depth: 0 # 👈 Required to retrieve git history
+          ref: ${{ github.ref }}
       - name: Install dependencies
         run: yarn
       - name: Generate changelog
