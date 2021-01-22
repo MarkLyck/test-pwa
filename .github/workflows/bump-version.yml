@@ -13,7 +13,8 @@ jobs:
       - name: "Checkout source code"
         uses: "actions/checkout@v2"
         with:
-          ref: ${{ github.ref }}
+          ref: ${{ github.ref }} # 👈 Required to create tag
+          fetch-depth: 0 # 👈 Required to retrieve git history for changelog
       - name: "Automated Version Bump"
         id: version-bump
         uses: "MarkLyck/gh-action-bump-version@master"
