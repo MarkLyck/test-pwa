@@ -5,11 +5,151 @@
 
 ### Fixed
 
+- 💚 fixx changelog [[5ecf4e7](https://github.com/MarkLyck/test-pwa/commit/5ecf4e79d71133a0cb2c4c388da6fe03fdfae94b)]
+
+
+<a name="0.1.17"></a>
+## 0.1.17 (2021-01-22)
+
+### Fixed
+
+- 💚 release attempt [#2](https://github.com/MarkLyck/test-pwa/issues/2) [[6dc97ef](https://github.com/MarkLyck/test-pwa/commit/6dc97ef84d595401257e74ed11dd49e844d5c972)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.17 [[2e2d6db](https://github.com/MarkLyck/test-pwa/commit/2e2d6db9080a57726cdfe33187612839c0eb28c0)]
+-  Merge pull request [#83](https://github.com/MarkLyck/test-pwa/issues/83) from MarkLyck/release-workflow [[be7ac08](https://github.com/MarkLyck/test-pwa/commit/be7ac082482939e35812356b09855cf147f9916b)]
+
+
+<a name="0.1.16"></a>
+## 0.1.16 (2021-01-22)
+
+### Added
+
+- 👷‍♂️ release workflow [[c3ef902](https://github.com/MarkLyck/test-pwa/commit/c3ef9027e55f32226d729d8833d5b0e40aa8f5ad)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.16 [[a39a085](https://github.com/MarkLyck/test-pwa/commit/a39a0858b5cf6d8cdf3696cea64d1a2752e60952)]
+-  Merge pull request [#82](https://github.com/MarkLyck/test-pwa/issues/82) from MarkLyck/release-workflow [[5ce49e7](https://github.com/MarkLyck/test-pwa/commit/5ce49e710c6efaca95889a28898a3a2d9fdf9b79)]
+
+
+<a name="0.1.15"></a>
+## 0.1.15 (2021-01-22)
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.15 [[9c79111](https://github.com/MarkLyck/test-pwa/commit/9c791116af49252f926c1ee3e681773ee9c882ac)]
+-  Merge pull request [#81](https://github.com/MarkLyck/test-pwa/issues/81) from MarkLyck/badges [[207a005](https://github.com/MarkLyck/test-pwa/commit/207a005f960c1abcdb81398ec976ac84f85f692e)]
+- 📝 fix badge [[4e0873f](https://github.com/MarkLyck/test-pwa/commit/4e0873f393d1dd441601653d54e32adb46873895)]
+
+
+<a name="0.1.14"></a>
+## 0.1.14 (2021-01-22)
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.14 [[e6c1793](https://github.com/MarkLyck/test-pwa/commit/e6c17931fbc5d710dfe4a88c49044f68e7d1bcdd)]
+-  Merge pull request [#80](https://github.com/MarkLyck/test-pwa/issues/80) from MarkLyck/badges [[711e28f](https://github.com/MarkLyck/test-pwa/commit/711e28f90633c107bc4b85b2690bdbf814e453bb)]
+- 📝 update badges [[855160a](https://github.com/MarkLyck/test-pwa/commit/855160a2497774fd41e57eb8bd6dac27fb0c3220)]
+
+
+<a name="0.1.13"></a>
+## 0.1.13 (2021-01-22)
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.13 [[1a88a99](https://github.com/MarkLyck/test-pwa/commit/1a88a997d7a8f748bee956eeed28b98e956cde48)]
+-  Merge pull request [#79](https://github.com/MarkLyck/test-pwa/issues/79) from MarkLyck/badges [[5740c62](https://github.com/MarkLyck/test-pwa/commit/5740c62f80cf25a4012a6dddb80f5a7b4e5e42ba)]
+- 📝 update badges [[fd77876](https://github.com/MarkLyck/test-pwa/commit/fd7787653f3d6f5448155984e95902f5bf6ec420)]
+
+
+<a name="0.1.12"></a>
+## 0.1.12 (2021-01-22)
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.12 [[fb38343](https://github.com/MarkLyck/test-pwa/commit/fb38343aba643bd473c43509e31158c31b58b4d7)]
+-  Merge pull request [#78](https://github.com/MarkLyck/test-pwa/issues/78) from MarkLyck/badges [[0b38b86](https://github.com/MarkLyck/test-pwa/commit/0b38b86761c36789e253260ed71630dc77d435da)]
+- 📝 add test status badges [[9a9be97](https://github.com/MarkLyck/test-pwa/commit/9a9be97ef3f5203115b8c6f51b7c641d78d44129)]
+
+
+<a name="0.1.11"></a>
+## 0.1.11 (2021-01-22)
+
+### Fixed
+
+- 💚 fix changelog ref [[d7d8a68](https://github.com/MarkLyck/test-pwa/commit/d7d8a682d6a9d7c0af58dbe881f8dfc3378985cf)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.11 [[85d2ae4](https://github.com/MarkLyck/test-pwa/commit/85d2ae4d5dce78e340e86a1349acd5e79f662da0)]
+-  Merge pull request [#77](https://github.com/MarkLyck/test-pwa/issues/77) from MarkLyck/fix-changelog [[54a7327](https://github.com/MarkLyck/test-pwa/commit/54a732773484cc7248905634088e2309330eaae5)]
+
+
+<a name="0.1.10"></a>
+## 0.1.10 (2021-01-22)
+
+### Changed
+
+- ⬆️ Update dependency chromatic to v5.6.1 [[84cde27](https://github.com/MarkLyck/test-pwa/commit/84cde27d246eec8f3a4aa6be7e5998d476f05412)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.10 [[7869e0f](https://github.com/MarkLyck/test-pwa/commit/7869e0f36f20af2b0cd369a18fbb8870ee85dab0)]
+-  Merge pull request [#74](https://github.com/MarkLyck/test-pwa/issues/74) from MarkLyck/renovate/chromatic-5.x [[a615a54](https://github.com/MarkLyck/test-pwa/commit/a615a546bdcab5cd6c333c1f3d76201769eea26a)]
+
+
+<a name="0.1.9"></a>
+## 0.1.9 (2021-01-22)
+
+### Fixed
+
+- 💚 changelog not running on tag [[42332d5](https://github.com/MarkLyck/test-pwa/commit/42332d512c30e8a9664d6e2f88e363a14a4e20c0)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.9 [[c786e4a](https://github.com/MarkLyck/test-pwa/commit/c786e4ae00e77739364ad91325648ad1fc59c5d3)]
+-  Merge pull request [#76](https://github.com/MarkLyck/test-pwa/issues/76) from MarkLyck/fix-changelog [[eaceba0](https://github.com/MarkLyck/test-pwa/commit/eaceba00b4d1bbc27772e535fe739bd2b7329a75)]
+
+
+<a name="0.1.8"></a>
+## 0.1.8 (2021-01-22)
+
+### Changed
+
+- ⬆️ upgrade to webpack@5.x [[1cf28c8](https://github.com/MarkLyck/test-pwa/commit/1cf28c8816bb77e41ec314118dd409603569edc1)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.8 [[20d7b4f](https://github.com/MarkLyck/test-pwa/commit/20d7b4f2de7f138c386fb7fcdf624f0a6393863b)]
+-  Merge pull request [#73](https://github.com/MarkLyck/test-pwa/issues/73) from MarkLyck/webpack-5 [[6be04c5](https://github.com/MarkLyck/test-pwa/commit/6be04c57106861fade6a72b42bf5b291f5be914c)]
+-  update antd themes [[2213d39](https://github.com/MarkLyck/test-pwa/commit/2213d3911a771a761a9a916f80e6acedbb75d188)]
+
+
+<a name="0.1.7"></a>
+## 0.1.7 (2021-01-22)
+
+### Added
+
+- 👷‍♂️ automated version-bump &amp; changelog gen [[5ca56c3](https://github.com/MarkLyck/test-pwa/commit/5ca56c34338b3b44d7ec0b0f446fffedbaa91dbc)]
+
+### Fixed
+
 - 💚 custom version bump tool [[3dfccfb](https://github.com/MarkLyck/test-pwa/commit/3dfccfba560695deb4cfd48b5c6998389fce10aa)]
 
 ### Miscellaneous
 
+- 📝 version bump to v0.1.7 [[32f745a](https://github.com/MarkLyck/test-pwa/commit/32f745ae862ac30e3a33a9c8420c97a3cc05d32e)]
+-  docs: update .all-contributorsrc [skip ci] [[a521352](https://github.com/MarkLyck/test-pwa/commit/a52135205cc6921d17bfd4251d4c123b36064bb1)]
+-  docs: update README.md [skip ci] [[d055619](https://github.com/MarkLyck/test-pwa/commit/d05561903d187e073c516225f1c68e99e5b80ece)]
+- 📦 Update dependency react-query to v3.6.0 [[27752d9](https://github.com/MarkLyck/test-pwa/commit/27752d955aa71195cfc3f017c994c7a07f812559)]
+-  Merge pull request [#70](https://github.com/MarkLyck/test-pwa/issues/70) from MarkLyck/all-contributors/add-MarkLyck [[1d2a364](https://github.com/MarkLyck/test-pwa/commit/1d2a3648ecc336821401cdf059ef8fa7fa377fde)]
+-  Merge pull request [#68](https://github.com/MarkLyck/test-pwa/issues/68) from MarkLyck/changelog [[e97d479](https://github.com/MarkLyck/test-pwa/commit/e97d479f09368e0bd604cb9b9a01b6047acf9b3c)]
+- 📝 add release documentation [[a745610](https://github.com/MarkLyck/test-pwa/commit/a7456107c5c114e2c4ff8b99bac9deb2b3e6a5ed)]
+-  Merge branch &#x27;changelog&#x27; of github.com:MarkLyck/test-pwa into changelog [[7a14f0e](https://github.com/MarkLyck/test-pwa/commit/7a14f0ea560fc3b9e092268c43f23468f82cae81)]
 -  Merge branch &#x27;changelog&#x27; of github.com:MarkLyck/test-pwa into changelog [[3f1b9a5](https://github.com/MarkLyck/test-pwa/commit/3f1b9a508e7b4d02d2642042dcc7acc8734c9d0e)]
+-  Merge pull request [#69](https://github.com/MarkLyck/test-pwa/issues/69) from MarkLyck/renovate/react-query-3.x [[9dea0fe](https://github.com/MarkLyck/test-pwa/commit/9dea0fed6f554218fe4d4cf4e46fbd5d0f648833)]
 
 
 <a name="0.1.6"></a>
