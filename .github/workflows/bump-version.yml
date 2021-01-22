@@ -30,12 +30,12 @@ jobs:
           body: https://github.com/MarkLyck/test-pwa/blob/main/CHANGELOG.md
           draft: false
           prerelease: false
-      - name: Install dependencies
-        run: yarn
       - name: Generate changelog
-        run: yarn gitmoji-changelog
+        run: npx gitmoji-changelog
       - name: Commit changes
         uses: EndBug/add-and-commit@v7
         with:
+          author_name: MarkLyck
+          author_email: mark.lyck@gmail.com
           message: ':bookmark: generate changelog'
           add: 'CHANGELOG.md'
