@@ -1,5 +1,19 @@
 # Changelog
 
+<a name="0.1.23"></a>
+## 0.1.23 (2021-01-22)
+
+### Changed
+
+- ⬆️ upgrade gitmoji-changelog action [[52e2099](https://github.com/MarkLyck/test-pwa/commit/52e2099d970aa53ce4ada89c2838a3c6d0b1329d)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.23 [[f01ca3f](https://github.com/MarkLyck/test-pwa/commit/f01ca3f58cbb85aa8e1ab55829a0982e82801f39)]
+- 📝 generated changelog [[ff799f5](https://github.com/MarkLyck/test-pwa/commit/ff799f5e3c92b8b138b29e320fda9d7d80daeddb)]
+-  Merge pull request [#92](https://github.com/MarkLyck/test-pwa/issues/92) from MarkLyck/fix-changelog [[8c358a7](https://github.com/MarkLyck/test-pwa/commit/8c358a7667c24de5ea35ec2e9d6efacd44cb39f4)]
+
+
 <a name="0.1.22"></a>
 ## 0.1.22 (2021-01-22)
 
