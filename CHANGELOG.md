@@ -3,9 +3,10 @@
 <a name="next"></a>
 ## next
 
-### Fixed
+### Miscellaneous
 
-- 💚 fixx changelog [[5ecf4e7](https://github.com/MarkLyck/test-pwa/commit/5ecf4e79d71133a0cb2c4c388da6fe03fdfae94b)]
+- 📝 version bump to v0.1.20 [[bcef1f6](https://github.com/MarkLyck/test-pwa/commit/bcef1f64bdcb10db885a1442616b3e023cae940d)]
+-  Merge pull request [#90](https://github.com/MarkLyck/test-pwa/issues/90) from MarkLyck/fix-changelog [[a0763fc](https://github.com/MarkLyck/test-pwa/commit/a0763fc07b98907f1e171ab4060d2130eaeb0fe3)]
 
 
 <a name="0.1.17"></a>
