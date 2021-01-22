@@ -1,5 +1,19 @@
 # Changelog
 
+<a name="0.1.25"></a>
+## 0.1.25 (2021-01-22)
+
+### Removed
+
+- ➖ remove babel-loader dependency [[a4306b1](https://github.com/MarkLyck/test-pwa/commit/a4306b1fee22d23a8a20c104e36451a4c1be67b0)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.25 [[453a5b2](https://github.com/MarkLyck/test-pwa/commit/453a5b2b64fb8bc9c8e8c86bf442ba2d91577fdb)]
+- 📝 generated changelog [[1d7bf24](https://github.com/MarkLyck/test-pwa/commit/1d7bf2457b981d1da9d7dee1be53dd0744b8ba15)]
+-  Merge pull request [#94](https://github.com/MarkLyck/test-pwa/issues/94) from MarkLyck/temp-fixes [[eb2f834](https://github.com/MarkLyck/test-pwa/commit/eb2f8348645274ec37f9ee82e9fd37a351917ea0)]
+
+
 <a name="0.1.24"></a>
 ## 0.1.24 (2021-01-22)
 
