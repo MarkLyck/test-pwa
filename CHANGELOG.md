@@ -1,5 +1,19 @@
 # Changelog
 
+<a name="0.1.24"></a>
+## 0.1.24 (2021-01-22)
+
+### Changed
+
+- ⬆️ Update dependency jotai to v0.12.6 [[f52c89f](https://github.com/MarkLyck/test-pwa/commit/f52c89fbae32cd38dd8b907d6a3e0f70d34d655b)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.24 [[c6b145c](https://github.com/MarkLyck/test-pwa/commit/c6b145c16215d85c34c8917ef83e8f7e7c81e1e6)]
+- 📝 generated changelog [[419c769](https://github.com/MarkLyck/test-pwa/commit/419c769703f19bfb2c9f8edfba58bccd1c51ee0c)]
+-  Merge pull request [#93](https://github.com/MarkLyck/test-pwa/issues/93) from MarkLyck/renovate/jotai-0.x [[c1e0e91](https://github.com/MarkLyck/test-pwa/commit/c1e0e913c4f0b3c58aa835d7a66c6889cb1cf6f5)]
+
+
 <a name="0.1.23"></a>
 ## 0.1.23 (2021-01-22)
 
