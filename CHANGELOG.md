@@ -5,8 +5,8 @@
 
 ### Miscellaneous
 
-- 📝 version bump to v0.1.20 [[bcef1f6](https://github.com/MarkLyck/test-pwa/commit/bcef1f64bdcb10db885a1442616b3e023cae940d)]
--  Merge pull request [#90](https://github.com/MarkLyck/test-pwa/issues/90) from MarkLyck/fix-changelog [[a0763fc](https://github.com/MarkLyck/test-pwa/commit/a0763fc07b98907f1e171ab4060d2130eaeb0fe3)]
+- 📝 version bump to v0.1.21 [[758899e](https://github.com/MarkLyck/test-pwa/commit/758899eb60e61be0f3dfcb478ac81a74828e03b3)]
+-  Merge pull request [#86](https://github.com/MarkLyck/test-pwa/issues/86) from MarkLyck/renovate/storybook-monorepo [[a0b504e](https://github.com/MarkLyck/test-pwa/commit/a0b504effefb86a5806aa8a0b09a598f3c8ab0e1)]
 
 
 <a name="0.1.17"></a>
