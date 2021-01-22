@@ -25,9 +25,17 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          body: |
-            https://github.com/MarkLyck/test-pwa/blob/main/CHANGELOG.md
+          tag_name: ${{ steps.version-bump.outputs.newTag }}
+          release_name: ${{ steps.version-bump.outputs.newTag }}
+          body: https://github.com/MarkLyck/test-pwa/blob/main/CHANGELOG.md
           draft: false
           prerelease: false
+      - name: Install dependencies
+        run: yarn
+      - name: Generate changelog
+        run: yarn gitmoji-changelog
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v7
+        with:
+          message: ':bookmark: generate changelog'
+          add: 'CHANGELOG.md'
