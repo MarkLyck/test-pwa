@@ -1,5 +1,19 @@
 # Changelog
 
+<a name="0.1.28"></a>
+## 0.1.28 (2021-01-23)
+
+### Changed
+
+- ⬆️ upgrade gulp-postcss [[a6787a8](https://github.com/MarkLyck/test-pwa/commit/a6787a828eaaeebab75469f55a961d48f36f109d)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.28 [[be3054a](https://github.com/MarkLyck/test-pwa/commit/be3054a86c5e7d6ea947780447787e2e66453844)]
+- 📝 generated changelog [[478c4a1](https://github.com/MarkLyck/test-pwa/commit/478c4a12965f2028333ee2c04d7ad6b131311f8a)]
+-  Merge pull request [#97](https://github.com/MarkLyck/test-pwa/issues/97) from MarkLyck/ant-themes [[a004627](https://github.com/MarkLyck/test-pwa/commit/a004627f3026792112f709d600e5434b8848e234)]
+
+
 <a name="0.1.27"></a>
 ## 0.1.27 (2021-01-23)
 
