@@ -1,6 +1,6 @@
 {
   "name": "test-pwa",
-  "version": "0.1.30",
+  "version": "0.1.31",
   "description": "testing PWAs",
   "private": true,
   "scripts": {
