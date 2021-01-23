@@ -1,5 +1,8 @@
 # Ignore artifacts:
 build
+public
+
+# dev
 coverage
 .vercel
 .node_modules
