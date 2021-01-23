@@ -1,5 +1,31 @@
 # Changelog
 
+<a name="0.1.30"></a>
+## 0.1.30 (2021-01-23)
+
+### Added
+
+- ➕ add size-limit [[dfcc9de](https://github.com/MarkLyck/test-pwa/commit/dfcc9dee96e31166b5b873cbff0d8a0858584c7c)]
+- 👷‍♂️ add size-limit ci [[c1050b1](https://github.com/MarkLyck/test-pwa/commit/c1050b14506d7479482fa1dc354446847b411df3)]
+
+### Changed
+
+- 🔧 size-limit config [[b159917](https://github.com/MarkLyck/test-pwa/commit/b159917b69c63cbbf9bca33cf742eb938c5c224e)]
+
+### Fixed
+
+- 💚 update size-limit &amp; cahce node_modules [[f71c3c4](https://github.com/MarkLyck/test-pwa/commit/f71c3c4f6d6d35862ab5bcce58e7235013d89fed)]
+- 💚 skip build [[ea0a27d](https://github.com/MarkLyck/test-pwa/commit/ea0a27da1d81ea57a0a22bf49960ab068fc09756)]
+- 💚 use default build script [[51b6d35](https://github.com/MarkLyck/test-pwa/commit/51b6d3508869097071f17c791ea2cc031ced1ea4)]
+- 💚 update event for size-limit [[366a029](https://github.com/MarkLyck/test-pwa/commit/366a02985d99ce00dcb96207419441891c508714)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.30 [[d92d9b7](https://github.com/MarkLyck/test-pwa/commit/d92d9b7c49adf1862bc345dd3fb58589cd60481a)]
+- 📝 generated changelog [[9c4cd2d](https://github.com/MarkLyck/test-pwa/commit/9c4cd2d075d74afdb2832d89558626451663fae5)]
+-  Merge pull request [#99](https://github.com/MarkLyck/test-pwa/issues/99) from MarkLyck/size-limit [[b041a0c](https://github.com/MarkLyck/test-pwa/commit/b041a0ccb8e7bfc59796951738bd2d3c31a19dae)]
+
+
 <a name="0.1.29"></a>
 ## 0.1.29 (2021-01-23)
 
