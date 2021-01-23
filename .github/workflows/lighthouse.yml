@@ -12,10 +12,15 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 10.x
-      - name: install dependencies & build
-        run: |
-          yarn
-          yarn build
+      - name: Restore node_modules cache
+        uses: actions/cache@v2
+        with:
+          path: "**/node_modules"
+          key: node_modules-${{ hashFiles('**/yarn.lock') }}
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: build
+        run: yarn build
       - name: run Lighthouse CI
         run: |
           npm install -g @lhci/cli@0.6.x
