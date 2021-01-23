@@ -74,7 +74,6 @@
     "@types/react": "17.0.0",
     "@types/react-dom": "17.0.0",
     "autoprefixer": "9.0.0",
-    "bundle-stats": "2.5.0",
     "chromatic": "5.6.1",
     "cypress": "6.3.0",
     "gitmoji-cli": "3.2.18",
