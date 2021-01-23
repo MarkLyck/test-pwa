@@ -1,5 +1,14 @@
 # Changelog
 
+<a name="0.1.32"></a>
+## 0.1.32 (2021-01-23)
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.32 [[2029e08](https://github.com/MarkLyck/test-pwa/commit/2029e08d01c1c6bb2770c996c4ce9130013468c4)]
+- 📝 generated changelog [[905fbeb](https://github.com/MarkLyck/test-pwa/commit/905fbebde9b76b4af8baec60d78d903715e283e7)]
+
+
 <a name="0.1.31"></a>
 ## 0.1.31 (2021-01-23)
 
