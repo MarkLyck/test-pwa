@@ -1,5 +1,19 @@
 # Changelog
 
+<a name="0.2.2"></a>
+## 0.2.2 (2021-01-23)
+
+### Changed
+
+- ⬆️ Update creyD/prettier_action action to v3.3 [[74fd09a](https://github.com/MarkLyck/test-pwa/commit/74fd09a76c8817568a4110750dc0634bd0d64ec2)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.2.2 [[ac54ec0](https://github.com/MarkLyck/test-pwa/commit/ac54ec000181d234abea31486ef3ea081cd19c79)]
+- 📝 generated changelog [[4491d3e](https://github.com/MarkLyck/test-pwa/commit/4491d3ec15fb91c9504af5a9e1f8931ff4be7bc8)]
+-  Merge pull request [#105](https://github.com/MarkLyck/test-pwa/issues/105) from MarkLyck/renovate/creyd-prettier_action-3.x [[7caaee4](https://github.com/MarkLyck/test-pwa/commit/7caaee487eaa38a2363b9cb8be1f5d5da041ab78)]
+
+
 <a name="0.2.1"></a>
 ## 0.2.1 (2021-01-23)
 
