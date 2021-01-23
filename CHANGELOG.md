@@ -1,5 +1,26 @@
 # Changelog
 
+<a name="0.1.26"></a>
+## 0.1.26 (2021-01-23)
+
+### Added
+
+- 👷‍♂️ lighthouse CI status [[82239ab](https://github.com/MarkLyck/test-pwa/commit/82239ab20861d5a7a2e4f867be577604ce672097)]
+- 👷‍♂️ add lighthouse ci [[a08715b](https://github.com/MarkLyck/test-pwa/commit/a08715b4757ffddd0e50bd339e2d5ead3582598f)]
+
+### Changed
+
+- 🔧 turn off light  house asserts [[cb1bea1](https://github.com/MarkLyck/test-pwa/commit/cb1bea1ed41039254b1189339346b5f211cfb27c)]
+- 🔧 fix lighthouse assertions [[fb5f7ad](https://github.com/MarkLyck/test-pwa/commit/fb5f7adc533aba1d52ccccb1e9cdc0f30c832849)]
+- 🔧 lighthouse config [[dd3b445](https://github.com/MarkLyck/test-pwa/commit/dd3b44506996bff207231961265230f20c4094e8)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.26 [[1bf11c9](https://github.com/MarkLyck/test-pwa/commit/1bf11c91a432e5cd619088ee2b9db936af119a4e)]
+- 📝 generated changelog [[27c31c4](https://github.com/MarkLyck/test-pwa/commit/27c31c4ceee872f0e8b44537db3e05937c18a92c)]
+-  Merge pull request [#95](https://github.com/MarkLyck/test-pwa/issues/95) from MarkLyck/lighthouse-ci [[c2a26e1](https://github.com/MarkLyck/test-pwa/commit/c2a26e1714c8630d2d6c69c73b181377bd00d15e)]
+
+
 <a name="0.1.25"></a>
 ## 0.1.25 (2021-01-22)
 
