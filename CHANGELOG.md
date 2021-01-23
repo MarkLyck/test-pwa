@@ -1,5 +1,19 @@
 # Changelog
 
+<a name="0.1.29"></a>
+## 0.1.29 (2021-01-23)
+
+### Changed
+
+- ⬆️ Pin dependency gulp-postcss to 9.0.0 [[36a10ce](https://github.com/MarkLyck/test-pwa/commit/36a10ce2248132faea680c555f4e519f569c8973)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.29 [[ebb33a2](https://github.com/MarkLyck/test-pwa/commit/ebb33a2076b7d869a4547d3283ff686b74a969a1)]
+-  Merge pull request [#98](https://github.com/MarkLyck/test-pwa/issues/98) from MarkLyck/renovate/pin-dependencies [[1e6c60e](https://github.com/MarkLyck/test-pwa/commit/1e6c60e7aa3bf10187a83abc27a6d1779a59a34e)]
+- 📝 generated changelog [[605c2fa](https://github.com/MarkLyck/test-pwa/commit/605c2fa9c83cfbbb474d633c8b9fee629e749c04)]
+
+
 <a name="0.1.28"></a>
 ## 0.1.28 (2021-01-23)
 
