@@ -1,5 +1,24 @@
 # Changelog
 
+<a name="0.2.4"></a>
+## 0.2.4 (2021-01-23)
+
+### Changed
+
+- 🔧 ignore generated files in prettier [[6d8c5ed](https://github.com/MarkLyck/test-pwa/commit/6d8c5ed1df3d59558c8597d525be81aaf330e6cc)]
+
+### Fixed
+
+- ✏️ fix typo [[1fbc502](https://github.com/MarkLyck/test-pwa/commit/1fbc5024686bc24b17534b734bb59924f61a36a8)]
+- 💚 update  bump wording [[100cf9e](https://github.com/MarkLyck/test-pwa/commit/100cf9e6db68a65c1b769fd8a230236849c22583)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.2.4 [[ef61a77](https://github.com/MarkLyck/test-pwa/commit/ef61a7767c43a1b34c02afb6b9a6ab4ebe54294e)]
+- 📝 generated changelog [[0904c11](https://github.com/MarkLyck/test-pwa/commit/0904c11605e03b8fb43205b343d6477e3c47b775)]
+-  Merge pull request [#107](https://github.com/MarkLyck/test-pwa/issues/107) from MarkLyck/prettier-ci [[0b08626](https://github.com/MarkLyck/test-pwa/commit/0b08626b739bfb0bb203d5529c6868fc329832ce)]
+
+
 <a name="0.2.3"></a>
 ## 0.2.3 (2021-01-23)
 
