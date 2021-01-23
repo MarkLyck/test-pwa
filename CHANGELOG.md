@@ -1,5 +1,16 @@
 # Changelog
 
+<a name="0.2.0"></a>
+## 0.2.0 (2021-01-23)
+
+### Miscellaneous
+
+- 📝 version bump to v0.2.0 [[0f24fa7](https://github.com/MarkLyck/test-pwa/commit/0f24fa7ed790fdc093d70c639e5ed5cf9edbcae2)]
+- 📝 generated changelog [[b9e632f](https://github.com/MarkLyck/test-pwa/commit/b9e632fd32cac7244e912e70d6749af1d85c25dc)]
+-  Merge pull request [#103](https://github.com/MarkLyck/test-pwa/issues/103) from MarkLyck/ci-docs [[b56b73c](https://github.com/MarkLyck/test-pwa/commit/b56b73cfdb995ada674b3d3a46c49b6b7d6dffdd)]
+-  :adhesive_bandage: fix minor issues [[51423c3](https://github.com/MarkLyck/test-pwa/commit/51423c336f58d9d5ed255369780f01d56b84efb6)]
+
+
 <a name="0.1.33"></a>
 ## 0.1.33 (2021-01-23)
 
