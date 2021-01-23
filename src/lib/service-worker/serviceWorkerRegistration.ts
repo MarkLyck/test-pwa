@@ -26,8 +26,8 @@ type Config = {
 }
 
 export function register(config?: Config) {
-  // @ts-ignore, don't use service-worker for Cypress.io
   if (
+    // @ts-ignore, don't use service-worker for Cypress.io
     !window.Cypress &&
     process.env.NODE_ENV === 'production' &&
     'serviceWorker' in navigator
