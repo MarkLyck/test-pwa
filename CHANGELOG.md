@@ -1,5 +1,19 @@
 # Changelog
 
+<a name="0.2.1"></a>
+## 0.2.1 (2021-01-23)
+
+### Added
+
+- 👷‍♂️ add prettier CI [[224a628](https://github.com/MarkLyck/test-pwa/commit/224a628742a058de2e378f3a287c4ff35e63d2e6)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.2.1 [[f5c6fbd](https://github.com/MarkLyck/test-pwa/commit/f5c6fbd1054992c453b267396355b1616965e568)]
+- 📝 generated changelog [[164f3e1](https://github.com/MarkLyck/test-pwa/commit/164f3e1f38b3bd2d888059c05d241e4e5819032e)]
+-  Merge pull request [#104](https://github.com/MarkLyck/test-pwa/issues/104) from MarkLyck/prettier-ci [[73c3486](https://github.com/MarkLyck/test-pwa/commit/73c348651d557b7d64880a60d0d4815c76f14749)]
+
+
 <a name="0.2.0"></a>
 ## 0.2.0 (2021-01-23)
 
