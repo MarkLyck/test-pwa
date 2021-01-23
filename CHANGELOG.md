@@ -1,5 +1,19 @@
 # Changelog
 
+<a name="0.1.27"></a>
+## 0.1.27 (2021-01-23)
+
+### Changed
+
+- ⬆️ Update actions/setup-node action to v2 [[981cfb3](https://github.com/MarkLyck/test-pwa/commit/981cfb3cde35bfafc2cee0392dcd4d91765cff03)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.27 [[241f429](https://github.com/MarkLyck/test-pwa/commit/241f429b86208c6c1bfce3cfb9b136ca41155c57)]
+- 📝 generated changelog [[3b8c127](https://github.com/MarkLyck/test-pwa/commit/3b8c12738693ac857faea8960760727944e08502)]
+-  Merge pull request [#96](https://github.com/MarkLyck/test-pwa/issues/96) from MarkLyck/renovate/actions-setup-node-2.x [[94dea96](https://github.com/MarkLyck/test-pwa/commit/94dea96231dd3e0ee7774aaf1449bff48a0e52ed)]
+
+
 <a name="0.1.26"></a>
 ## 0.1.26 (2021-01-23)
 
