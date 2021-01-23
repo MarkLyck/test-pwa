@@ -1,5 +1,19 @@
 # Changelog
 
+<a name="0.1.33"></a>
+## 0.1.33 (2021-01-23)
+
+### Changed
+
+- ⬆️ Update actions/checkout action to v2 [[a80da7f](https://github.com/MarkLyck/test-pwa/commit/a80da7f5e304b25e44c4ab0af1d44c0cf47c45b8)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.33 [[053df30](https://github.com/MarkLyck/test-pwa/commit/053df300b7b456bf0d251c2d8d96abf00cf0c8be)]
+- 📝 generated changelog [[906133c](https://github.com/MarkLyck/test-pwa/commit/906133c384ba1d1b3080e621ae7f25f250b3a120)]
+-  Merge pull request [#101](https://github.com/MarkLyck/test-pwa/issues/101) from MarkLyck/renovate/actions-checkout-2.x [[41b612a](https://github.com/MarkLyck/test-pwa/commit/41b612accb8ba7f09357d852387b008f2aa8a997)]
+
+
 <a name="0.1.32"></a>
 ## 0.1.32 (2021-01-23)
 
