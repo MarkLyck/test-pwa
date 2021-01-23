@@ -7,17 +7,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Restore node_modules cache
+      - uses: actions/checkout@v2
+      - name: Restore node_modules cache
         uses: actions/cache@v2
         with:
-          path: "**/node_modules"
+          path: '**/node_modules'
           key: node_modules-${{ hashFiles('**/yarn.lock') }}
-    - name: Install dependencies
-      run: yarn install --frozen-lockfile
-    - name: Unit test
-      run: yarn test:unit --ci --coverage
-    - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v1
-      with:
-        token: ${{ secrets.CODECOV_TOKEN }}
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Unit test
+        run: yarn test:unit --ci --coverage
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}

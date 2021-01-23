@@ -1,19 +1,13 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 // Regular
-import {
-  faAnalytics,
-} from '@fortawesome/pro-regular-svg-icons'
+import { faAnalytics } from '@fortawesome/pro-regular-svg-icons'
 
 // Solid
-import {
-  faMoon,
-} from '@fortawesome/pro-solid-svg-icons'
+import { faMoon } from '@fortawesome/pro-solid-svg-icons'
 
 // duoTone
-import {
-  faSun as faSunDuo,
-} from '@fortawesome/pro-duotone-svg-icons'
+import { faSun as faSunDuo } from '@fortawesome/pro-duotone-svg-icons'
 
 library.add(
   // Regular
@@ -21,5 +15,5 @@ library.add(
   // SOLID
   faMoon,
   // DuoTone
-  faSunDuo,
+  faSunDuo
 )

@@ -3,7 +3,7 @@ import { render } from '@testing-library/react'
 // Providers
 import { Provider as JotaiProvider } from 'jotai'
 import { ThemeProvider } from '@emotion/react'
-import { ThemeSwitcherProvider } from "react-css-theme-switcher";
+import { ThemeSwitcherProvider } from 'react-css-theme-switcher'
 // Utils
 import ComposeProviders from 'src/lib/ComposeProviders'
 import themes, { antDThemeMap } from 'src/lib/themes'
@@ -14,8 +14,11 @@ const AllTheProviders = ({ children }: any) => {
     <ComposeProviders
       components={[
         JotaiProvider,
-        [ThemeSwitcherProvider, { themeMap: antDThemeMap, defaultTheme: 'light' }],
-        [ThemeProvider, { theme: themes.light }]
+        [
+          ThemeSwitcherProvider,
+          { themeMap: antDThemeMap, defaultTheme: 'light' },
+        ],
+        [ThemeProvider, { theme: themes.light }],
       ]}
     >
       {children}

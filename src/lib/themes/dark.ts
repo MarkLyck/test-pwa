@@ -30,7 +30,7 @@ const theme: any = {
       1200: '#FFFFFF',
     },
     border: '#222B45',
-  }
+  },
 }
 
 export default theme
