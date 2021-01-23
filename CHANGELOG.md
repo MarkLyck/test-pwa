@@ -1,5 +1,44 @@
 # Changelog
 
+<a name="0.2.2"></a>
+## 0.2.2 (2021-01-23)
+
+### Changed
+
+- ⬆️ Update creyD/prettier_action action to v3.3 [[74fd09a](https://github.com/MarkLyck/test-pwa/commit/74fd09a76c8817568a4110750dc0634bd0d64ec2)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.2.2 [[ac54ec0](https://github.com/MarkLyck/test-pwa/commit/ac54ec000181d234abea31486ef3ea081cd19c79)]
+- 📝 generated changelog [[4491d3e](https://github.com/MarkLyck/test-pwa/commit/4491d3ec15fb91c9504af5a9e1f8931ff4be7bc8)]
+-  Merge pull request [#105](https://github.com/MarkLyck/test-pwa/issues/105) from MarkLyck/renovate/creyd-prettier_action-3.x [[7caaee4](https://github.com/MarkLyck/test-pwa/commit/7caaee487eaa38a2363b9cb8be1f5d5da041ab78)]
+
+
+<a name="0.2.1"></a>
+## 0.2.1 (2021-01-23)
+
+### Added
+
+- 👷‍♂️ add prettier CI [[224a628](https://github.com/MarkLyck/test-pwa/commit/224a628742a058de2e378f3a287c4ff35e63d2e6)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.2.1 [[f5c6fbd](https://github.com/MarkLyck/test-pwa/commit/f5c6fbd1054992c453b267396355b1616965e568)]
+- 📝 generated changelog [[164f3e1](https://github.com/MarkLyck/test-pwa/commit/164f3e1f38b3bd2d888059c05d241e4e5819032e)]
+-  Merge pull request [#104](https://github.com/MarkLyck/test-pwa/issues/104) from MarkLyck/prettier-ci [[73c3486](https://github.com/MarkLyck/test-pwa/commit/73c348651d557b7d64880a60d0d4815c76f14749)]
+
+
+<a name="0.2.0"></a>
+## 0.2.0 (2021-01-23)
+
+### Miscellaneous
+
+- 📝 version bump to v0.2.0 [[0f24fa7](https://github.com/MarkLyck/test-pwa/commit/0f24fa7ed790fdc093d70c639e5ed5cf9edbcae2)]
+- 📝 generated changelog [[b9e632f](https://github.com/MarkLyck/test-pwa/commit/b9e632fd32cac7244e912e70d6749af1d85c25dc)]
+-  Merge pull request [#103](https://github.com/MarkLyck/test-pwa/issues/103) from MarkLyck/ci-docs [[b56b73c](https://github.com/MarkLyck/test-pwa/commit/b56b73cfdb995ada674b3d3a46c49b6b7d6dffdd)]
+-  :adhesive_bandage: fix minor issues [[51423c3](https://github.com/MarkLyck/test-pwa/commit/51423c336f58d9d5ed255369780f01d56b84efb6)]
+
+
 <a name="0.1.33"></a>
 ## 0.1.33 (2021-01-23)
 
