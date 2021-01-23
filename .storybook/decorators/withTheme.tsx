@@ -1,6 +1,6 @@
 import React from 'react'
 import { ThemeProvider } from '@emotion/react'
-import { ThemeSwitcherProvider } from "react-css-theme-switcher";
+import { ThemeSwitcherProvider } from 'react-css-theme-switcher'
 import { Provider, useAtom } from 'jotai'
 import { themeAtom } from '../../src/atoms'
 import { antDThemeMap } from '../../src/lib/themes'
@@ -11,7 +11,7 @@ const ThemeContainer = ({ children }) => {
   return (
     <ThemeSwitcherProvider themeMap={antDThemeMap} defaultTheme={theme.type}>
       <ThemeProvider theme={theme}>{children}</ThemeProvider>
-    </ThemeSwitcherProvider >
+    </ThemeSwitcherProvider>
   )
 }
 

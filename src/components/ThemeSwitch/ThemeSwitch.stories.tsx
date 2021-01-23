@@ -13,8 +13,8 @@ export default {
     backgroundColor: { control: 'color' },
   },
   parameters: {
-    layout: 'centered'
-  }
+    layout: 'centered',
+  },
 } as Meta
 
 const Template = (args: {}) => (

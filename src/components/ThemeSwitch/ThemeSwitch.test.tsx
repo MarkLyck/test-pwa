@@ -4,16 +4,16 @@ import { render, fireEvent } from 'src/test/test-utils'
 import ThemeSwitch from './index'
 
 test('renders theme switch', () => {
-    const { container } = render(<ThemeSwitch />)
+  const { container } = render(<ThemeSwitch />)
 
-    const button: any = container.querySelector('button')
-    expect(button).toHaveAttribute('aria-checked', 'true')
+  const button: any = container.querySelector('button')
+  expect(button).toHaveAttribute('aria-checked', 'true')
 
-    fireEvent.click(button)
+  fireEvent.click(button)
 
-    expect(button).toHaveAttribute('aria-checked', 'false')
+  expect(button).toHaveAttribute('aria-checked', 'false')
 
-    fireEvent.click(button)
+  fireEvent.click(button)
 
-    expect(button).toHaveAttribute('aria-checked', 'true')
+  expect(button).toHaveAttribute('aria-checked', 'true')
 })

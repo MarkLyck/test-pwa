@@ -8,7 +8,7 @@ codecov:
 coverage:
   precision: 2
   round: down
-  range: "70...100"
+  range: '70...100'
   # Adds status messages to github
   # Disabling until we agree on the approach
   status:
@@ -19,12 +19,12 @@ coverage:
 # Pull request comments
 # https://docs.codecov.io/docs/pull-request-comments
 comment:
-  layout: "reach,diff,flags,files,footer"
+  layout: 'reach,diff,flags,files,footer'
   behavior: default
   require_changes: no
   require_head: no # default yes
   require_base: no # default yes
 
 ignore:
-  - "src/service-worker.ts"  # create-react-app service-worker
-  - "src/**/*.stories.*"  # create-react-app service-worker
+  - 'src/service-worker.ts' # create-react-app service-worker
+  - 'src/**/*.stories.*' # create-react-app service-worker
