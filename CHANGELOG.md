@@ -1,5 +1,22 @@
 # Changelog
 
+<a name="0.2.3"></a>
+## 0.2.3 (2021-01-23)
+
+### Changed
+
+- 🎨 fix prettier changing minified css [[010bf35](https://github.com/MarkLyck/test-pwa/commit/010bf35c4c981003721f71984b3d5c154c1c97a6)]
+- 🎨 code formatting and pretty-quick hoook [[1a559fb](https://github.com/MarkLyck/test-pwa/commit/1a559fbae0968633553a221f06abc4811f5627a8)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.2.3 [[976750b](https://github.com/MarkLyck/test-pwa/commit/976750bff7cc039e11fea37ab133b26dc9f8c55d)]
+- 📝 generated changelog [[4f6c0aa](https://github.com/MarkLyck/test-pwa/commit/4f6c0aa7c0b2602fbf4a17e2536ad06562d48239)]
+-  Merge pull request [#106](https://github.com/MarkLyck/test-pwa/issues/106) from MarkLyck/prettier-ci [[331518a](https://github.com/MarkLyck/test-pwa/commit/331518a4c5e23a7da1bc708d28a8f57ca3da0fc6)]
+- 🏷️ fix ts-ignorre [[4913ea0](https://github.com/MarkLyck/test-pwa/commit/4913ea0e0a4d5f3dce3f6771e8f06c4f6ea320dd)]
+- 🔀 merge main [[78773bd](https://github.com/MarkLyck/test-pwa/commit/78773bda59243ac7e12af017ec519dac8cf66a4c)]
+
+
 <a name="0.2.2"></a>
 ## 0.2.2 (2021-01-23)
 
