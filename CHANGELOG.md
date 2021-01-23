@@ -1,5 +1,27 @@
 # Changelog
 
+<a name="0.1.31"></a>
+## 0.1.31 (2021-01-23)
+
+### Changed
+
+- ⬆️ Pin dependencies [[7e312bf](https://github.com/MarkLyck/test-pwa/commit/7e312bfda9d1695f085529c525f52f1f86cae239)]
+- 🔧 update size-limit [[553686e](https://github.com/MarkLyck/test-pwa/commit/553686e08cdf7d16bceb16b08fa9e07ba96effcd)]
+- 🔧 update size-limit [[5ded759](https://github.com/MarkLyck/test-pwa/commit/5ded759ee1232844e006f9f80b9c6b2931276c06)]
+
+### Fixed
+
+- 💚 fix lighthouse status [[2f7eb0a](https://github.com/MarkLyck/test-pwa/commit/2f7eb0a4828e9dbedae5ddef6e1509947ea53389)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.1.31 [[ec945ee](https://github.com/MarkLyck/test-pwa/commit/ec945eeddc76d6ed3fa8a5ed8ed34347727c2d40)]
+- 📝 generated changelog [[f14cfaf](https://github.com/MarkLyck/test-pwa/commit/f14cfaf32a9b7ecf6dad3b0c4b604aac1006de05)]
+-  Merge pull request [#100](https://github.com/MarkLyck/test-pwa/issues/100) from MarkLyck/renovate/pin-dependencies [[1a6fde0](https://github.com/MarkLyck/test-pwa/commit/1a6fde0dd6d394da9902eac110385dae3baf6e85)]
+-  Merge pull request [#102](https://github.com/MarkLyck/test-pwa/issues/102) from MarkLyck/ci-docs [[e9ec5db](https://github.com/MarkLyck/test-pwa/commit/e9ec5dba0519deb9bb206bc7f4975ac15dd1ea70)]
+- 📝 add CI checklist docs [[650600d](https://github.com/MarkLyck/test-pwa/commit/650600de4843ff2c31648a77ad188f7368bb5f14)]
+
+
 <a name="0.1.30"></a>
 ## 0.1.30 (2021-01-23)
 
