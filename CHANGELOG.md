@@ -1,5 +1,19 @@
 # Changelog
 
+<a name="0.2.6"></a>
+## 0.2.6 (2021-01-24)
+
+### Changed
+
+- ⬆️ Update dependency antd to v4.11.1 [[9e0b150](https://github.com/MarkLyck/test-pwa/commit/9e0b1504b2fd575aeb4bbb5cbbfab07a93c28d70)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.2.6 [[7a85800](https://github.com/MarkLyck/test-pwa/commit/7a858007ee847887c8ff285bf3ccb763bd959da8)]
+- 📝 generated changelog [[4b6c1fb](https://github.com/MarkLyck/test-pwa/commit/4b6c1fbe7a119266410c45700a5711319daf4267)]
+-  Merge pull request [#109](https://github.com/MarkLyck/test-pwa/issues/109) from MarkLyck/renovate/antd-4.x [[114fb7f](https://github.com/MarkLyck/test-pwa/commit/114fb7f0f6dbf75332a1ee9e7881cf85607f1368)]
+
+
 <a name="0.2.5"></a>
 ## 0.2.5 (2021-01-24)
 
