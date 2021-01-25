@@ -1,5 +1,19 @@
 # Changelog
 
+<a name="0.2.7"></a>
+## 0.2.7 (2021-01-25)
+
+### Removed
+
+- 🔥 remove size-limit [[b195251](https://github.com/MarkLyck/test-pwa/commit/b19525173bf270da1d5c7ba522db6e60f584b6bb)]
+
+### Miscellaneous
+
+- 📝 version bump to v0.2.7 [[9f9e5b9](https://github.com/MarkLyck/test-pwa/commit/9f9e5b973831fa85e9e7996cd39461cce27ea604)]
+-  Merge pull request [#110](https://github.com/MarkLyck/test-pwa/issues/110) from MarkLyck/remove-size-limit [[d29606d](https://github.com/MarkLyck/test-pwa/commit/d29606d539b2157472878e4e08141f7a7945a980)]
+- 📝 generated changelog [[1841f87](https://github.com/MarkLyck/test-pwa/commit/1841f8706d896f0a44a6f16fcf33c7efb9738458)]
+
+
 <a name="0.2.6"></a>
 ## 0.2.6 (2021-01-24)
 
