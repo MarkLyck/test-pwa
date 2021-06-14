@@ -88,7 +88,7 @@
     "pretty-quick": "3.1.0",
     "react-scripts": "4.0.1",
     "serve": "11.3.2",
-    "size-limit": "4.9.1",
+    "size-limit": "4.12.0",
     "start-server-and-test": "1.11.7",
     "tsconfig-paths-webpack-plugin": "3.3.0",
     "typescript": "4.1.3"
