@@ -71,7 +71,7 @@
     "@testing-library/user-event": "12.6.2",
     "@types/jest": "26.0.20",
     "@types/node": "14.14.22",
-    "@types/react": "17.0.0",
+    "@types/react": "17.0.52",
     "@types/react-dom": "17.0.0",
     "autoprefixer": "9.0.0",
     "chromatic": "5.6.1",
