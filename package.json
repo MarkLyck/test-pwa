@@ -75,7 +75,7 @@
     "@types/react-dom": "17.0.0",
     "autoprefixer": "9.0.0",
     "chromatic": "5.6.1",
-    "cypress": "6.3.0",
+    "cypress": "6.9.1",
     "gitmoji-cli": "3.2.18",
     "gulp": "4.0.2",
     "gulp-csso": "4.0.1",
