@@ -56,7 +56,7 @@
     "workbox-streams": "6.0.2"
   },
   "devDependencies": {
-    "@babel/helper-builder-react-jsx": "7.10.4",
+    "@babel/helper-builder-react-jsx": "7.22.10",
     "@jest/types": "26.6.2",
     "@relative-ci/agent": "1.4.0",
     "@size-limit/preset-app": "4.9.1",
